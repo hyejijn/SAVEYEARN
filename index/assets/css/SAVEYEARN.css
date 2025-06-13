@@ -15,6 +15,15 @@ a {
   color: var(--primary-01);
 }
 
+.sub_main-kv {
+  position: relative;
+}
+.sub_main-kv h2 {
+  position: absolute;
+  top: 125px;
+  color: var(--primary-01);
+}
+
 :root {
   /* Spacing (Margin & Padding) */
   --spacing-xxs: 10px;
@@ -28,10 +37,12 @@ a {
   --black-01: #2E2E2E;
   --black-02: #4A4A4A;
   /* Point 색상 */
+  --primary-00:#F2600C;
   --primary-01:#FC7E27;
   --primary-02:#FDA96F;
   --primary-03:#FED4B7;
   --primary-04:#FFF4ED;
+  --primary-05:#FFF8F4;
   /* font-weight */
   --font-weight-light: 300;
   --font-weight-regular: 400;
@@ -65,7 +76,7 @@ a {
 
 .button {
   position: relative;
-  padding: var(--spacing-md) var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-xl);
   background-color: var(--primary-01);
   font-size: var(--font-caption);
   color: #FFFFFF;
@@ -79,7 +90,7 @@ a {
 }
 
 .button_outline {
-  padding: var(--spacing-md) var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-xl);
   background: transparent;
   border: 1px solid var(--primary-01);
   color: var(--primary-01);

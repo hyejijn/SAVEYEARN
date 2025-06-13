@@ -1,0 +1,70 @@
+@import 'common';
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    h1{
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    h1{
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+}
+
+header{
+    .navbar{
+    flex-wrap: nowrap !important;
+    padding: 49px;
+
+
+    .navbar__ghost{
+        display: none;
+        background: transparent;
+        border: none;
+    }
+
+    .navbar__menu{
+        gap: 50px;
+
+        li{
+            list-style: none;
+            font-size: var(--font-body-sm);
+            font-weight: var(--font-weight-semibold);
+        }
+        a{
+            color: #2e2e2e;
+        }
+    }
+
+    }
+}
+
+
+.kv-main-title{
+    h1{
+        font-size: 90px;
+        font-weight: var( --font-weight-bold);
+        margin-bottom: var(--spacing-xl);
+        color: var(--primary-01);
+        padding-top: 142px;
+        padding-bottom: var(--spacing-xl);
+    }
+}
+
+
+
+img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 20px;
+    display: flex;
+    gap: 15%;
+}
+.company-firm{
+    overflow: hidden;
+}

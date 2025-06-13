@@ -118,12 +118,6 @@ body h1 {
   font-family: "IBM Plex Sans KR", sans-serif;
 }
 
-p {
-  font-size: var(--font-body-lg);
-  font-weight: var(--font-weight-bold);
-  margin-top: var(--spacing-md);
-}
-
 header .navbar {
   flex-wrap: nowrap !important;
   padding: 49px;
@@ -143,61 +137,4 @@ header .navbar .navbar__menu li {
 }
 header .navbar .navbar__menu a {
   color: #2e2e2e;
-}
-
-.section_01 h1 {
-  font-size: 90px;
-  font-weight: var(--font-weight-bold);
-  margin-bottom: var(--spacing-xl);
-  color: var(--primary-00);
-  padding-top: 142px;
-  padding-bottom: var(--spacing-xl);
-}
-
-.kv-tab-list .tab-btn {
-  font-size: var(--font-body-md);
-  font-weight: var(--font-weight-bold);
-  margin-right: var(--spacing-lg);
-}
-.kv-tab-list .tab-btn:hover {
-  text-decoration: none;
-  color: var(--primary-03) !important;
-  border-bottom: var(--primary-01);
-}
-
-.sub_main-kv {
-  position: relative;
-}
-.sub_main-kv h2 {
-  position: absolute;
-  top: 125px;
-  color: var(--primary-05);
-}
-
-.tab-content .active {
-  display: block;
-}
-
-.tab-content,
-.tab-content-block {
-  display: none;
-}
-
-.tab-content.active,
-.tab-content-block.active {
-  display: block;
-}
-
-.sub_02_content {
-  padding: var(--spacing-xl);
-}
-.sub_02_content h3 {
-  margin-top: var(--spacing-sm);
-  color: var(--primary-01);
-  font-size: var(--font-heading-xl);
-}
-.sub_02_content p {
-  margin-top: var(--spacing-sm);
-  color: var(--black-01);
-  font-size: var(--font-body-lg);
-}/*# sourceMappingURL=Get_involved.css.map */
+}/*# sourceMappingURL=Stay_Connected.css.map */

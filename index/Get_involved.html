@@ -6,10 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="assets/css/Get_involved.css" />
   </head>
   <body>
@@ -59,154 +56,247 @@
         </ul>
       </nav>
     </header>
-
     <section class="section_01">
-      <div class="container-fluid">
+      <div class="container-fluid tab-container">
+        <!-- 타이틀 -->
         <div class="row">
           <div class="col-md-12">
-            <h1>Get involed</h1>
-          </div>
-        </div>
-        <div>
-          <ul class="d-flex kv-tab-list">
-            <li><a href="">자원봉사</a></li>
-            <li><a href="">후원</a></li>
-          </ul>
-        </div>
-
-        <!-- tab_01 -->
-        <div class="row">
-          <div class="col-md-12 sub01_main text-center">
-            <h2 class="main-text">작지만 소중한 한 걸음, 함께해 주세요.</h2>
-          </div>
-          <div class="col-md-12 sub02_main-img">
-            <img
-              class="img-fluid"
-              src="assets/images/sub/sub01_main-img02.png"
-              alt="자원봉사 메인 강아지 이미지"
-            />
+            <h1>Get Involved</h1>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-12 sub01_title text-center">
-            <h2 class="main-text">이렇게 함께할 수 있어요</h2>
-            <p>
-              누군가의 하루를 지켜주는 방법은 생각보다 가까이 있습니다.<br />
-              지금, 그 첫걸음을 함께해 주세요.
-            </p>
+        <!-- 탭 버튼 -->
+        <ul class="d-flex kv-tab-list list-unstyled">
+          <li>
+            <a href="#" class="tab-btn active" data-target="tab-volunteer"
+              >자원봉사</a
+            >
+          </li>
+          <li>
+            <a href="#" class="tab-btn" data-target="tab-support">후원</a>
+          </li>
+        </ul>
+
+        <!-- 자원봉사 콘텐츠 -->
+
+        <div class="tab-content" id="tab-volunteer">
+          <div
+            class="sub_main-kv d-flex justify-content-center align-items-center active"></div>
+            <h2>작지만 소중한 한걸음, 함께해주세요.</h2>
+            <img src="assets/images/sub/sub02_main-img01.png" alt="" />
+          </div>
+          <div id="tab-volunteer" class="container tab-content-block active">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h2 class="main-text">이렇게 함께할 수 있어요</h2>
+                <p>
+                  누군가의 하루를 지켜주는 방법은 생각보다 가까이 있습니다.<br />지금,
+                  그 첫걸음을 함께해 주세요.
+                </p>
+              </div>
+            </div>
+            <div class="row sub_02_content">
+              <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_mob.png"
+                    alt="청소도구아이콘"
+                  />
+                </div>
+                <h3>사육장 및 시설 청소</h3>
+                <p>
+                  사육장과 보호소 내부를 정리하고 <br />
+                  위생을 관리하는 활동입니다.<br />
+                  쾌적한 환경 유지는 동물들의 건강과 안전에<br />
+                  직접적으로 도움이 됩니다
+                </p>
+              </div>
+              <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_walking.png"
+                    alt="산책강아지아이콘"
+                  />
+                </div>
+                <h3>산책봉사</h3>
+                <p>
+                  보호 중인 반려동물과 함께 산책하며 <br />
+                  운동과 사회성을 길러주는 활동입니다.<br />규칙적인 산책은 입양
+                  전 스트레스 완화에 <br />
+                  큰 효과가 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="row sub_02_content">
+              <div class="col-md-12 text-center">
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_bath.png"
+                    alt="욕조 아이콘"
+                  />
+                </div>
+                <h3>목욕 & 미용봉사</h3>
+                <p>
+                  동물의 위생을 관리하고 <br />외형을 단정하게 정돈해주는
+                  봉사입니다.<br />입양을 앞둔 동물에게 <br />긍정적인 인상을 줄
+                  수 있도록 돕습니다.
+                </p>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="container">
+              <div class="row d-flex">
+                <div class="col-md-6 text-center">
+                  <button class="button">
+                    개인 봉사 신청
+                    <i class="fa-solid fa-arrow-right arrow ml-5"></i>
+                  </button>
+                </div>
+
+                <div class="col-md-6 text-center">
+                  <button class="button_outline">
+                    단체 봉사 신청
+                    <i class="fa-solid fa-arrow-right icon arrow ml-5"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="row sub_02_content">
-          <div class="col-md-6">
-            <div class="sub_02-icon">
-              <img src="assets/images/sub/sub02_mob.png" alt="청소도구아이콘" />
-            </div>
-            <h3>사육장 및 시설 청소</h3>
-            <p>
-              사육장과 보호소 내부를 정리하고 <br />
-              위생을 관리하는 활동입니다.<br />
-              쾌적한 환경 유지는 동물들의 건강과 안전에 <br />
-              직접적으로 도움이 됩니다.
-            </p>
+        <!-- 후원 콘텐츠 -->
+        <div class="tab-content" id="tab-support">
+          <div
+            class="sub_main-kv d-flex justify-content-center align-items-center"
+          >
+            <h2>당신의 후원이, 한 생명을 살리는 시작이 됩니다.</h2>
+            <img src="assets/images/sub/sub02_main-img02.png" alt="" />
           </div>
-          <div class="col-md-6">
-            <div class="sub_02-icon">
-              <img
-                src="assets/images/sub/sub02_walking.png"
-                alt="산책강아지아이콘"
-              />
+          <div id="tab-support" class="container tab-content-block">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h2 class="main-text">후원, 이렇게 시작해요</h2>
+                <p>
+                  누군가의 하루를 지켜주는 방법은 생각보다 가까이 있습니다.<br />지금
+                  그 첫걸음을 함께해 주세요.
+                </p>
+              </div>
             </div>
-            <h3>산책봉사</h3>
-            <p>
-              보호 중인 반려동물과 함께 산책하며<br />
-              운동과 사회성을 길러주는 활동입니다.<br />
-              규칙적인 산책은 입양 전 스트레스 완화에 <br />
-              큰 효과가 있습니다.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="sub_02-icon">
-              <img src="assets/images/sub/sub02_bath.png" alt="욕조 아이콘" />
+            <div class="row sub_02_content">
+              <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_pigeon.svg"
+                    alt="비둘기아이콘"
+                  />
+                </div>
+                <h3>정기후원</h3>
+                <p>
+                  매달 일정 금액을 자동 후원해<br />
+                  안정적인 보호소 운영에 기여합니다.
+                </p>
+              </div>
+              <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_Bandage.svg"
+                    alt="밴드아이콘"
+                  />
+                </div>
+                <h3>단기후원</h3>
+                <p>
+                  특정 상황이나 한 마리의 치료, <br />구조를 위한 1회성
+                  후원입니다.
+                </p>
+              </div>
             </div>
-            <h3>목욕 & 미용봉사</h3>
-            <p>
-              동물의 위생을 관리하고 외형을 단정하게 정돈해주는 봉사입니다.<br />
-              입양을 앞둔 동물에게 긍정적인 인상을 줄 수 있도록 돕습니다.
-            </p>
-          </div>
-        </div>
+            <div class="row sub_02_content">
+              <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_phone.svg"
+                    alt="아이폰아이콘"
+                  />
+                </div>
+                <h3>간편신청</h3>
+                <p>모바일에서도 3분 안에 후원 신청이 가능합니다.</p>
+              </div>
+              <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <div class="sub_02-icon">
+                  <img
+                    src="assets/images/sub/sub02_chart.svg"
+                    alt="서류모양아이콘"
+                  />
+                </div>
+                <h3>영수증발급</h3>
+                <p>
+                  후원 내역은 연말 정산용 기부금 영수증으로 <br />발급
+                  가능합니다.
+                </p>
+              </div>
+            </div>
+            <!-- button -->
+            <div class="container">
+              <div class="row d-flex">
+                <div class="col-md-6 text-center">
+                  <button class="button">
+                    정기후원 신청
+                    <i class="fa-solid fa-arrow-right arrow ml-5"></i>
+                  </button>
+                </div>
 
-        <!-- tab02 -->
-        <div class="row">
-          <div class="col-md-12 sub01_main text-center">
-            <h2 class="main-text">
-              당신의 후원이, 한 생명을 살리는 시작이 됩니다.
-            </h2>
-          </div>
-          <div class="col-md-12 sub02_main-img">
-            <img
-              class="img-fluid"
-              src="assets/images/sub/sub02_main-img02.png"
-              alt="자원봉사 메인 강아지 이미지"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 sub01_title text-center">
-            <h2 class="main-text">후원, 이렇게 시작해요</h2>
-            <p>
-              누군가의 하루를 지켜주는 방법은 생각보다 가까이 있습니다.<br />
-              지금, 그 첫걸음을 함께해 주세요.
-            </p>
-          </div>
-        </div>
-
-        <div class="row sub_02_content">
-          <div class="col-md-6">
-            <div class="sub_02-icon">
-              <img
-                src="assets/images/sub/sub02_pigeon.svg"
-                alt="비둘기아이콘"
-              />
+                <div class="col-md-6 text-center">
+                  <button class="button_outline">
+                    단기후원 신청
+                    <i class="fa-solid fa-arrow-right icon arrow ml-5"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-            <h3>정기후원</h3>
-            <p>
-              매달 일정 금액을 자동 후원해 안정적인 보호소 운영에 기여합니다.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <div class="sub_02-icon">
-              <img src="assets/images/sub/sub02_Bandage.svg" alt="밴드아이콘" />
-            </div>
-            <h3>단기후원</h3>
-            <p>특정 상황이나 한마리의 치료, 구조를 위한 1회성 후원입니다.</p>
-          </div>
-        </div>
-        <div class="row sub_02_content">
-          <div class="col-md-6">
-            <div class="sub_02-icon">
-              <img src="assets/images/sub/sub02_phone.svg" alt="아이폰아이콘" />
-            </div>
-            <h3>간편신청</h3>
-            <p>모바일에서도 3분 안에 후원 신청이 가능합니다.</p>
-          </div>
-          <div class="col-md-6">
-            <div class="sub_02-icon">
-              <img
-                src="assets/images/sub/sub02_chart.svg"
-                alt="서류모양아이콘"
-              />
-            </div>
-            <h3>영수증발급</h3>
-            <p>후원 내역은 연말 정산용 기부금 영수증으로 발급 가능합니다.</p>
           </div>
         </div>
       </div>
     </section>
   </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script>
+ $(function () {
+  // 탭 클릭 시 동작
+  $(".tab-btn").click(function (e) {
+    e.preventDefault();
+
+    // 탭 버튼 active 초기화
+    $(".tab-btn").removeClass("active");
+    $(this).addClass("active");
+
+    // 탭 콘텐츠 초기화
+    $(".tab-content").removeClass("active");
+    $(".tab-content-block").removeClass("active");
+
+    // 해당 콘텐츠 보이기
+    const target = $(this).data("target");
+    $("#" + target).addClass("active");
+    $("#" + target + " .tab-content-block").addClass("active");
+  });
+
+  // ✅ 초기 진입 시 첫 번째 탭 강제 클릭 (기본 탭 열기)
+  $(".tab-btn.active").first().trigger("click");
+});
+
+
+  </script>
 </html>

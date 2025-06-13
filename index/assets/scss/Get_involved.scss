@@ -14,6 +14,12 @@ body {
     }
 }
 
+p{
+    font-size: var(--font-body-lg);
+    font-weight: var(--font-weight-bold);
+    margin-top: var(--spacing-md);
+}
+
 header{
     .navbar{
     flex-wrap: nowrap !important;
@@ -23,7 +29,7 @@ header{
     .navbar__ghost{
         display: none;
         background: transparent;
-        border: none;
+        border: none; 
     }
 
     .navbar__menu{
@@ -47,14 +53,66 @@ header{
         font-size: 90px;
         font-weight: var( --font-weight-bold);
         margin-bottom: var(--spacing-xl);
-        color: var(--primary-01);
+        color: var(--primary-00);
         padding-top: 142px;
         padding-bottom: var(--spacing-xl);
     }
 }
 
-.tab-menu{
-    ul{
-        
+.kv-tab-list{
+
+    .tab-btn{
+        font-size: var(--font-body-md);
+        font-weight: var( --font-weight-bold); 
+        margin-right: var(--spacing-lg);
+
+        &:hover{
+            text-decoration: none;
+            color: var(--primary-03) !important;
+            border-bottom: var(--primary-01);
+    }
+    }
+
+
+}
+
+.sub_main-kv{
+    position: relative;
+    h2{
+        position: absolute;
+        top: 125px;
+        color: var(--primary-05);
+    }
+}
+
+// tab
+
+
+.tab-content .active{
+    display: block;
+}
+.tab-content,
+.tab-content-block {
+  display: none;
+}
+.tab-content.active,
+.tab-content-block.active {
+  display: block;
+}
+
+
+
+
+.sub_02_content{
+    padding: var(--spacing-xl);
+    h3{
+        margin-top: var(--spacing-sm);
+        color: var(--primary-01);
+        font-size: var(--font-heading-xl);
+    }
+    p{
+        margin-top: var(--spacing-sm);
+        color: var(--black-01);
+        font-size: var(--font-body-lg);
     }
 }
