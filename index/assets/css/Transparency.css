@@ -148,6 +148,17 @@ header .navbar .navbar__menu a {
   padding-bottom: var(--spacing-xl);
 }
 
+.sub_text {
+  position: relative;
+}
+.sub_text h2 {
+  font-size: var(--font-heading-xxl);
+  font-weight: var(--font-weight-bold);
+  margin-top: var(--spacing-sm);
+  color: var(--primary-05);
+  position: absolute;
+}
+
 img {
   width: 100%;
 }

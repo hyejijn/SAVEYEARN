@@ -54,6 +54,16 @@ header{
     }
 }
 
+.sub_text{
+    position: relative;
+    h2{
+        font-size: var(--font-heading-xxl);
+        font-weight: var( --font-weight-bold);
+        margin-top: var(--spacing-sm);
+        color: var(--primary-05);
+        position: absolute;
+    }
+}
 
 
 img{
