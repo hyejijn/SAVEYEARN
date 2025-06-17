@@ -121,11 +121,14 @@ body h1 {
 header .navbar {
   flex-wrap: nowrap !important;
   padding: 49px;
+  position: relative;
 }
-header .navbar .navbar__ghost {
+header .navbar .ghost_btn {
   display: none;
-  background: transparent;
-  border: none;
+  cursor: pointer;
+  color: var(--primary-00);
+  font-size: 28px;
+  padding: 10px;
 }
 header .navbar .navbar__menu {
   gap: 50px;

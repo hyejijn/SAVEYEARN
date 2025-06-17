@@ -68,9 +68,6 @@
     border: none;
     display: block;
   }
-  .navbar__menu li {
-    display: none;
-  }
   .navbar_signin {
     background-color: transparent;
     margin-left: 0 !important;
@@ -116,6 +113,33 @@
   }
   .section_01 img.img-fluid {
     display: none;
+  }
+}
+@media (max-width: 540px) {
+  header .navbar {
+    flex-direction: column;
+  }
+  header .navbar .nav_top {
+    gap: 100px;
+  }
+  header .navbar .link_top {
+    margin-top: 30px;
+  }
+  header .navbar .ghost_btn {
+    display: block;
+    cursor: pointer;
+  }
+  header .navbar .navbar__menu {
+    display: none !important;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .navbar .navbar__menu li {
+    padding: 8px 12px;
+  }
+  header .navbar .navbar__menu.active {
+    display: flex !important;
   }
 }
 @media (max-width: 457px) {

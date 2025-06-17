@@ -1,5 +1,7 @@
 @import 'common';
 
+
+
 body {
     font-family: 'Noto Sans KR', sans-serif; 
     h1{
@@ -18,12 +20,15 @@ header{
     .navbar{
     flex-wrap: nowrap !important;
     padding: 49px;
+     position: relative;
 
 
-    .navbar__ghost{
+    .ghost_btn{
         display: none;
-        background: transparent;
-        border: none;
+        cursor: pointer;
+        color: var(--primary-00);
+        font-size: 28px;
+        padding: 10px;
     }
 
     .navbar__menu{

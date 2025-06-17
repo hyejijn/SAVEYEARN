@@ -54,27 +54,51 @@ header{
     }
 }
 
-.sub_text{
+.sub05_main{
     position: relative;
-    h2{
+    .main-text{
         font-size: var(--font-heading-xxl);
         font-weight: var( --font-weight-bold);
-        margin-top: var(--spacing-sm);
         color: var(--primary-05);
         position: absolute;
+        z-index: 2;
+        top:127px;
+        left: 25%;
+    }
+    .main-img{
+        position: relative;
+        z-index: 1;
+        width: 100%;
     }
 }
 
-
-img{
-    width: 100%;
+.part01{
+    .part01_title{
+        font-size: var(--font-heading-xxl);
+        font-weight: var( --font-weight-bold);
+        color: var(--primary-01);
+    }
+    .chart01,.chart02{
+        padding-top: var(--spacing-xl);
+    }
 }
 
-.card-body{
-    padding: 20px;
-    display: flex;
-    gap: 15%;
+.part02{
+    .part02_title{
+        font-size: var(--font-heading-xxl);
+        font-weight: var( --font-weight-bold);
+        color: var(--primary-01);     
+    }
+
 }
-.company-firm{
-    overflow: hidden;
+.part03sec{
+            overflow: hidden;
+}
+.part03{
+
+    .part03_title{
+            font-size: var(--font-heading-xxl);
+            font-weight: var( --font-weight-bold);
+            color: var(--primary-01);     
+        } 
 }

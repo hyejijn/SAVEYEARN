@@ -451,6 +451,14 @@ footer .footer__text {
     display: none;
   }
 }
+@media (max-width: 540px) {
+  header .navbar .ghost_btn {
+    display: block;
+  }
+  header .navbar .navbar__menu {
+    display: none;
+  }
+}
 @media (max-width: 457px) {
   .container {
     max-width: 393px;

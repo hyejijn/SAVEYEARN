@@ -137,4 +137,43 @@ header .navbar .navbar__menu li {
 }
 header .navbar .navbar__menu a {
   color: #2e2e2e;
+}
+
+.kv-main-title h1 {
+  font-size: 90px;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-xl);
+  color: var(--primary-00);
+  padding-top: 142px;
+  padding-bottom: var(--spacing-xl);
+}
+
+.sub04_main {
+  position: relative;
+}
+.sub04_main .main-text {
+  font-size: var(--font-heading-xxl);
+  font-weight: var(--font-weight-bold);
+  color: var(--black-01);
+  position: absolute;
+  z-index: 2;
+  top: 127px;
+  left: 25%;
+}
+.sub04_main .main-img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.table .table_title {
+  background-color: var(--primary-01);
+  color: #fff;
+}
+.table .table_text th {
+  color: var(--primary-00);
+  padding: var(--spacing-md);
+}
+.table .table_text td {
+  vertical-align: middle !important;
 }/*# sourceMappingURL=Stay_Connected.css.map */
