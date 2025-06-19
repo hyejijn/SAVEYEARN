@@ -163,6 +163,7 @@ header .navbar .navbar__menu a {
   text-decoration: none;
   color: var(--primary-03) !important;
   border-bottom: var(--primary-01);
+  cursor: pointer;
 }
 
 .sub_main-kv {

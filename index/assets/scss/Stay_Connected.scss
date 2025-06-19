@@ -71,6 +71,7 @@ header{
 }
 
 .table{
+    margin-top: var(--spacing-xl);
     .table_title{
         background-color: var(--primary-01);
         color: #fff;
@@ -85,4 +86,10 @@ header{
         }
     }
 
+}
+.pagination{
+    padding-bottom: var(--spacing-xl);
+}
+.page-link{
+        color: var(--primary-01) !important;
 }

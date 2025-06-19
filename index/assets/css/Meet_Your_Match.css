@@ -73,6 +73,9 @@ a {
 :root .container {
   padding: 80px 0;
 }
+:root .img {
+  width: 100%;
+}
 
 .button {
   position: relative;
@@ -165,6 +168,19 @@ p {
   position: absolute;
 }
 
+.sub03_title {
+  font-size: 44px;
+  color: var(--primary-00);
+  margin-bottom: 70px;
+  font-weight: var(--font-weight-bold);
+}
+
+.sub03_subtitle {
+  font-size: 20px;
+  color: var(--black-01);
+  font-weight: var(--font-weight-bold);
+}
+
 header .navbar {
   flex-wrap: nowrap !important;
   padding: 49px;
@@ -187,6 +203,7 @@ header .navbar .navbar__menu a {
 }
 
 .tab-content {
+  padding: 0;
   display: none;
 }
 

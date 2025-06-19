@@ -62,6 +62,22 @@ p{
     }
 
 }
+.border{
+    
+}
+
+.sub03_title{
+    font-size: 44px;
+    color: var(--primary-00);
+    margin-bottom: 70px;
+    font-weight: var(--font-weight-bold);
+}
+.sub03_subtitle{
+    font-size: 20px;
+    color: var(--black-01);
+    font-weight: var(--font-weight-bold);
+}
+
 header{
     .navbar{
     flex-wrap: nowrap !important;
@@ -91,7 +107,8 @@ header{
 }
 
 .tab-content {
-  display: none;
+    padding: 0;
+    display: none;
 }
 .tab-content.active {
   display: block;
@@ -106,7 +123,7 @@ header{
     }
 }
 
-
+// tab_content02
 
 
 

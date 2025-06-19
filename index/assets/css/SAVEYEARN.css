@@ -171,6 +171,18 @@ header .navbar .navbar__menu a {
   padding-bottom: var(--spacing-xl);
 }
 
+.kv-tab-list .tab-btn {
+  font-size: var(--font-body-md);
+  font-weight: var(--font-weight-bold);
+  margin-right: var(--spacing-lg);
+}
+.kv-tab-list .tab-btn:hover {
+  text-decoration: none;
+  color: var(--primary-03) !important;
+  border-bottom: var(--primary-01);
+  cursor: pointer;
+}
+
 .tab-content h2 {
   font-size: 90px;
   font-weight: var(--font-weight-bold);

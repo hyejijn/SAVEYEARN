@@ -166,6 +166,9 @@ header .navbar .navbar__menu a {
   width: 100%;
 }
 
+.table {
+  margin-top: var(--spacing-xl);
+}
 .table .table_title {
   background-color: var(--primary-01);
   color: #fff;
@@ -176,4 +179,12 @@ header .navbar .navbar__menu a {
 }
 .table .table_text td {
   vertical-align: middle !important;
+}
+
+.pagination {
+  padding-bottom: var(--spacing-xl);
+}
+
+.page-link {
+  color: var(--primary-01) !important;
 }/*# sourceMappingURL=Stay_Connected.css.map */

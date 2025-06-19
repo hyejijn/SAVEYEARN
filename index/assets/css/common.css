@@ -73,6 +73,9 @@ a {
 :root .container {
   padding: 80px 0;
 }
+:root .img {
+  width: 100%;
+}
 
 .button {
   position: relative;
