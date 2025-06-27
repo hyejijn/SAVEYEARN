@@ -1,0 +1,119 @@
+@import 'common';
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    h1{
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+}
+
+.container-fluid{
+    padding-left: 0;
+}
+.sub_main{
+        position: absolute;
+        z-index: 1;
+        color: #FFF8F4;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 55%;
+        .main-text {
+            font-size: $font-heading-xxl;
+            font-weight: $font-weight-bold;
+            margin-bottom: 30px;
+            color: $primary-01;
+            padding-top: 142px;
+            padding-bottom: $spacing-xl;
+            }
+        .sub_text{
+            font-size: $font-heading-md;
+            font-weight: $font-weight-bold;
+            margin-top: $spacing-sm;
+        }
+        .description{
+            font-size: $font-body-sm;
+            font-weight: $font-weight-bold;
+            margin-top: $spacing-md;
+        }
+        .sub01_main{
+            position: absolute;
+            z-index: 2;
+        }
+        .sub01_main-img{
+            width: 100%;
+            position: relative;   
+            z-index: 1;
+        }
+    }
+
+.sub_main-kv{
+    position: relative;
+    h2{
+        position: absolute;
+        top: 125px;
+        color: $primary-01;
+    }
+}
+
+
+.kv-tab-list{
+    font-size: 32px;
+    font-weight: $font-weight-bold;
+    color: $primary-01;
+    padding-left: 246px;
+    .tab-btn{
+        font-size: $font-body-md;
+        font-weight: $font-weight-bold; 
+        margin-right: $spacing-lg;
+
+        &:hover{
+            text-decoration: none;
+            color: $primary-03 !important;
+            border-bottom: $primary-01;
+            cursor: pointer;
+    }
+    }
+
+
+}
+
+.tab-content{
+    .part02, .part03, .part04{
+        .main-text {
+            font-size: $font-heading-xxl;
+            font-weight: $font-weight-bold;
+            margin-bottom: 30px;
+            color: $primary-01;
+
+            }
+        .sub_text{
+            font-size: $font-heading-md;
+            font-weight: $font-weight-bold;
+            margin-bottom: 30px;
+        }
+        .description{
+            font-size: $font-body-sm;
+            font-weight: $font-weight-bold;
+            margin: 0;
+        }
+    }
+    .part02{
+        padding-top: $spacing-xxl;
+        .text_content{
+            margin-left: $spacing-xs;
+    }
+    }
+    .part03{
+        .text_content{
+            margin-right: $spacing-xs;
+        }
+    }
+    .part04{
+        .text-center{
+            margin-top: $spacing-xl;
+            margin-bottom: $spacing-xl;
+        }
+
+    }
+    
+}

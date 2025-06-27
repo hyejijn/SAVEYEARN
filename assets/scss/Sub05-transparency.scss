@@ -1,0 +1,132 @@
+@use './common' as *;
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    h1{
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+}
+img{
+    width: 100%;
+}
+
+// kv_title
+.sub_main{
+    position: relative;
+
+    h2{
+        font-size: $font-heading-xl !important;        
+        position: absolute;
+        top: 150px;
+        color: $primary-05;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.main-text{
+    position: relative;
+    .main-text{
+        font-size: $font-caption;
+        font-weight: $font-weight-bold;
+        color: $primary-05;
+        position: absolute;
+        z-index: 2;
+        top:127px;
+        left: 25%;
+    }
+    .main-img{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+    }
+}
+//  chart 
+.part01{
+        padding: $spacing-xl;
+    .part01_title{
+        font-size: $font-heading-md;
+        font-weight: $font-weight-bold;
+        color: $primary-01;
+    }
+    .chart01,.chart02{
+        padding-top: $spacing-xl;
+    }
+}
+
+// download
+.sec02{
+    background-color: $primary-05;
+    padding: $spacing-xl ;
+    
+    .part02_title{
+        font-size: $font-heading-md;
+        font-weight: $font-weight-bold;
+        color: $primary-01;     
+    }
+    .btn-link{
+        color: $black-01;
+        font-weight: $font-weight-bold;
+    }
+    .part02{
+    .card{
+        border: none;
+        border-bottom: 3px solid #FEE7D7;
+    }
+    .borderbottom{
+        border-bottom: 3px solid $primary-00;
+    }
+    .bordertop{
+        border-top: 3px solid $primary-00;
+    }
+    .card-header{
+        border-bottom: 0;
+        margin-bottom: 0;
+        background-color:$primary-05;
+        i{
+            color: $primary-01;
+        }
+    }  
+    .card-body{
+        background-color:$primary-05;
+        padding-top: 0;
+
+        .report,.download{
+            font-size: $font-body-sm;
+            color:$primary-02;
+            font-weight: $font-weight-bold;
+            
+        }
+    } 
+    .pl-6{
+        padding-left: 234px ;
+    }
+    .btn-link {
+        text-decoration: none;
+    }
+    button{
+        &:focus,
+        &:focus-visible{
+            outline: none;
+            box-shadow: none;
+        }
+    }
+
+
+}
+}
+
+.sec03{
+    overflow: hidden;
+    padding: $spacing-xl ;
+}
+.part03{
+    .swiper-wrapper{
+        -webkit-transition-timing-function:linear!important; transition-timing-function:linear!important; }
+
+    .part03_title{
+            font-size: $font-heading-md;
+            font-weight: $font-weight-bold;
+            color: $primary-01;     
+        } 
+}
