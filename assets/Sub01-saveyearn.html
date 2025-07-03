@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
- <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-<link rel="stylesheet" href="../assets/css/Sub01-saveyearn.css">
+    <link rel="stylesheet" href="../assets/css/Sub01-saveyearn.css">
 
 
 </head>
@@ -22,43 +22,43 @@
 
 </header>
 
-
+<!-- kv_title -->
 <section>
     <div class="kv-main-title container-fluid">
         <h1>SAVEYEARN</h1>
     </div>
 </section>
 
+<!-- tab -->
 <div class="kv-tab-list container-fluid d-flex">
     <ul class="d-flex pl-0">
-        <li class="tab-btn active" data-tab="0">소개</li>
-        <li class="tab-btn" data-tab="1">자주묻는질문</li>
+        <li class="tab-btn active" data-tab="0" data-target="intro">소개</li>
+        <li class="tab-btn" data-tab="1"  data-target="faq">자주묻는질문</li>
     </ul>
 </div>
 
 
 <div class="tab-contents">
-    <!-- tab_01 소개 -->
-        <div class="tab-content"> 
+    <!-- tab_01-->
+        <div id="intro" class="tab-content active"> 
             <!-- Our Story -->
-            <div class="part01">
-                <div class="sub_main text-center">
+            <div class="part01 container-fluid">
+                <div class="part01_main text-center">
                     <h2 class="main-text">Our Story</h2>
                     <p class="sub_text">SAVEYEARN은 ‘구하고, 바라는 마음’에서 시작되었습니다 </p>
                     <p class="description">우리는 단순한 구조를 넘어 모든 동물이 더 나은 삶을 살기를 바랍니다.<br> SAVEARN은 그 마음을 담은 이름이자,  우리가 매일 실천하는 방향입니다.</p>
                 </div>                
                 <div class="sub01_main-img">
-                    <img src="../../assets/images/sub/sub01_main-img01.png" alt="소개페이지 메인 강아지 이미지">
+                    <img src="../assets/images/sub/sub01_main-img01.png" alt="소개페이지 메인 강아지 이미지">
                 </div>
 
             </div>
-
 
             <!-- Our Mission -->
             <div class="container">
                 <div class="part02 row">
                     <div class="sub01_img col-md-6">
-                        <img class="" src="../../assets/images/sub/sub01_img01.png" alt="소개페이지 미션이미지">
+                        <img class="" src="../assets/images/sub/sub01_img01.png" alt="소개페이지 미션이미지">
                     </div>
                     <div class="col-md-6  d-flex flex-column justify-content-center">
                         <div class="text_content px-0">
@@ -78,7 +78,7 @@
             <!-- Our Approach -->
             <div class="container">
                 <div class="part03 row">
-                    <div class="col-md-6  d-flex flex-column justify-content-center">
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
                         <div class="text_content px-0">
                             <h2 class="main-text">Our Approach</h2>
                             <p class="sub_text">작지만 꾸준하게, 구조에서 평생의 관계까지</p>
@@ -90,12 +90,10 @@
                         </div>
                     </div>
                     <div class="sub01_img col-md-6">
-                        <img class="" src="../../assets/images/sub/sub01_img02.png" alt="소개페이지 미션이미지">
+                        <img class="" src="../assets/images/sub/sub01_img02.png" alt="소개페이지 미션이미지">
                     </div>
                 </div>
             </div>
-
-
 
             <!-- Our Team -->
             <div class="part04">
@@ -106,28 +104,35 @@
                     </p>
                 </div>
                 <div class="">
-                    <img class="" src="../../assets/images/sub/sub01_bottom.png" alt="소개페이지 하단이미지">
+                    <img class="" src="../assets/images/sub/sub01_bottom.png" alt="소개페이지 하단이미지">
                 </div>                                    
-            </div>
-                
-            
+            </div>        
         </div>
 
-</div>
+    <!-- tab_02 -->
+        <div id="faq" class="tab-content sub01_faq">
+                
+            <div class="container-fluid">
+            <div class="row sub_main text-center">
+                <h2 class="col-md-12 main-text">모든 생명은 사랑받을 자격이 있습니다</h2>
+            </div>                
+            <div class="main-img">
+                <img class="" src="../assets/images/sub/sub01_main-img02.png" alt="자주묻는질문 메인 강아지 이미지">
+            </div>
+            </div>
 
-
-
-<div class="tab-content">
-            <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
-            <div class="accordion" id="accordionExample">
+            <div class="row text-center"> 
+            <h2 class="col-md-12 faq__title">자주묻는질문 </h2>
+            </div>
+          <div class="accordion" id="accordionExample">
             <div class="card">
                 <div class="card-header" id="Q1">
-                <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Q1. 입양 전에 직접 만나볼 수 있나요?
-                        <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+    
+                </h5>
                 </div>
 
                 <div id="collapseOne" class="collapse" aria-labelledby="Q1" data-parent="#accordionExample">
@@ -138,12 +143,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q2">
-                <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Q2. 입양은 누구나 가능한가요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
 
                 <div id="collapseTwo" class="collapse" aria-labelledby="Q2" data-parent="#accordionExample">
@@ -154,12 +159,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q3">
-                <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Q. 후원은 어떻게 하나요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
 
                 <div id="collapseThree" class="collapse" aria-labelledby="Q3" data-parent="#accordionExample">
@@ -170,12 +175,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q4">
-                <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     Q. 봉사활동은 주말에도 가능한가요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
 
                 <div id="collapseFour" class="collapse" aria-labelledby="Q4" data-parent="#accordionExample">
@@ -186,12 +191,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q5">
-                <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Q. 후원금은 어디에 사용되나요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
 
                 <div id="collapseFive" class="collapse" aria-labelledby="Q5" data-parent="#accordionExample">
@@ -202,12 +207,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q6">
-                <h2 class="mb-0">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
                     <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     Q. 강아지를 입양하면 준비해야 할 것이 있나요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
                 <div id="collapseSix" class="collapse" aria-labelledby="Q6" data-parent="#accordionExample">
                 <div class="card-body">
@@ -217,12 +222,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q7">
-                <h2 class="mb-0">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
                     <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSev" aria-expanded="false" aria-controls="collapseSev">
                     Q. 후원 내역은 확인할 수 있나요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
                 <div id="collapseSev" class="collapse" aria-labelledby="Q7" data-parent="#accordionExample">
                 <div class="card-body">
@@ -232,12 +237,12 @@
             </div>
             <div class="card">
                 <div class="card-header" id="Q8">
-                <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEig" aria-expanded="false" aria-controls="collapseEig">
+                <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                    <button class="btn btn-link btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#collapseEig" aria-expanded="false" aria-controls="collapseEig">
                     Q. 직접 후원 물품을 보내고 싶은데 가능할까요?
-                    <i class="fa-solid fa-paw"></i>
                     </button>
-                </h2>
+
+                </h5>
                 </div>
                 <div id="collapseEig" class="collapse" aria-labelledby="Q8" data-parent="#accordionExample">
                 <div class="card-body">
@@ -247,8 +252,30 @@
             </div>
             
             </div>
+
+                    <!-- button -->
+          <div class="button_row">
+            <div class="cta d-flex justify-content-center">
+                <button class="button d-flex ">
+                    정기후원 알아보기
+                    <img src="../assets/images/orange_arrow.svg" alt="오른쪽 화살표" class="orange_arrow">
+                    <i class="fa-solid fa-paw icon_hover mt-1"></i>
+                </button>
+
+                <button class="button_outline d-flex justify-content-between">
+                    단기 후원 알아보기
+                    <img src="../assets/images/white_arrow.svg" alt="오른쪽 화살표" class="white_arrow">
+                    <i class="fa-solid fa-paw icon_hover mt-1"></i>
+                </button>
+            </div>
+          </div>
+        </div>
         </div>
 </div>
+</div>
+
+
+
 
 
 
@@ -262,7 +289,7 @@
   <footer class="bg-dark text-white">
       <div class="footer__container d-flex flex-column text-center align-items-center">
         <div class="footer__logo">
-          <img src="../../assets/images/footer_logo.svg" alt="">
+          <img src="../assets/images/footer_logo.svg" alt="">
         </div>
         <div class="">
           <div class="footer__icon d-flex justify-content-center">
@@ -298,29 +325,18 @@ ghost_btn.addEventListener('click',()=>{
 </script>
 
  <script>
- $(function () {
-  // 탭 클릭 시 동작
-  $(".tab-btn").click(function (e) {
-    e.preventDefault();
+$(function () {
+    $('#intro').addClass('active'); //첫번째 탭 활성화
 
-    // 탭 버튼 active 초기화
-    $(".tab-btn").removeClass("active");
-    $(this).addClass("active");
+  $('.tab-btn').on('click', function () {
+    $('.tab-btn').removeClass('active');
+    $(this).addClass('active');
 
-    // 탭 콘텐츠 초기화
-    $(".tab-content").removeClass("active");
-    $(".tab-content-block").removeClass("active");
-
-    // 해당 콘텐츠 보이기
-    const target = $(this).data("target");
-    $("#" + target).addClass("active");
-    $("#" + target + " .tab-content-block").addClass("active");
+    const target = $(this).data('target');   // intro / faq
+    $('.tab-content').removeClass('active');
+    $('#' + target).addClass('active');
   });
-
-  // ✅ 초기 진입 시 첫 번째 탭 강제 클릭 (기본 탭 열기)
-  $(".tab-btn.active").first().trigger("click");
 });
-
 
   </script>
 </body>

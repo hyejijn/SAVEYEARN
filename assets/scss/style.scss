@@ -6,9 +6,9 @@ body {
         font-family: 'IBM Plex Sans KR', sans-serif;
     }
 }
-.container{
-    padding: $spacing-lg;
-}
+// .container{
+//     padding: $spacing-lg;
+// }
 
 .navbar{
     flex-wrap: nowrap !important;
@@ -24,7 +24,7 @@ body {
         li{
             list-style: none;
             font-size: $font-caption;
-            font-weight: $font-weight-semibold;
+            font-weight: $font-weight-bold;
             margin-left: 50px;
         }
         .nav__link{
@@ -38,10 +38,6 @@ body {
     }
 }
 
-
-
-
-
 .section_01{
     .sec_01_maintitle{
         
@@ -54,76 +50,6 @@ body {
         .cta{
             padding-top: $spacing-md;
         }
-    // cta
-    .button{ 
-        padding: 10px 48px;
-        background-color: $primary-01;
-        font-size: $font-caption;
-        color: #FFFFFF;
-        border-radius: 10px;
-        border: 1px solid $primary-01;
-        width: 250px;
-        
-        .orange_arrow{
-            width: 20%;
-        }
-
-        .icon_hover{
-            width: 20%;
-            display: none;
-            margin: 0;
-        }
-
-
-
-        &:hover{
-            background-color: transparent;
-            color: $primary-01; 
-            transition: all 0.3s ease;
-
-            img{
-                display: none;
-            }
-            .icon_hover{
-                display: block;
-            }
-        }
-    }
-
-    .button_outline{
-        padding: 10px 48px;
-        background-color: transparent;
-        border: 1px solid $primary-01;
-        color: $primary-01;
-        border-radius: 10px;
-        transition: all 0.3s ease;
-        font-size: $font-caption;
-        width: 250px;
-
-        .white_arrow{
-            width: 20%;
-        }
-        .icon_hover{
-            width: 10%;
-            display: none;
-        }
-        
-
-        &:hover{
-            background-color: $primary-01;
-            color:  #FFFFFF;
-            transition: all 0.3s ease; 
-
-            img{
-                display: none;
-            }
-            .icon_hover{
-                display: block;
-            }
-        }
-
-    }
-
 }
         
 }
@@ -132,26 +58,21 @@ body {
         background: $primary-04;
     img{
         width: 20%;
-        margin-bottom: $spacing-md;
-    }
-    .col-md-3{
-        display: flex;
-        flex-direction: column;
+        margin-bottom: $spacing-xxs;
     }
     .counter{
         font-size: $font-heading-xl;
-        font-weight: 700;
-
+        font-weight:  $font-weight-bold;
+        margin-bottom: $spacing-xxs;
     }
     .unit{
-        color: $black-01;
+        color: $black-00;
         font-size: 14px;
-        font-weight: 700;
+        font-weight: $font-weight-bold;
     }
     .label{
         font-size: $font-body-md;
-        font-weight: 700;
-        margin-top: $spacing-sm;
+        font-weight:  $font-weight-bold;
     }
 
 }
@@ -173,7 +94,6 @@ body {
         }
 
     }
-    
     .section__item{
         flex-direction: column;
         align-items: center;
@@ -189,7 +109,7 @@ body {
             background-position: center;
             z-index: 99;
             position: absolute;
-            top: 105px;
+            top: 128px;
         }
        .section03__card{
             width: 80%;
@@ -204,36 +124,35 @@ body {
             height: 40px;
             background-color:$primary-02;
             position: relative;
-            top: -487px;
+            top: -553px;
              }
     
     }
         .section03__sbutitle{
         font-size: $font-body-lg;
         font-weight:$font-weight-semibold;
-        margin-top: $spacing-lg;
+        margin-top: $spacing-sm;
     }
 }
 
 .section_04{
-    h1{
-        font-size: 30px;
+    h2{
+        margin-bottom: $spacing-xxs;
     }
     .swiper-slide{
-        width: auto;
+        width: 300px !important;
         border: 1px solid $primary-01;
     }
-  
 
     .slide_text-box{
         gap: 5px;
         img{
             width: 25px;
-            height: 25px;
+            height: 25px; 
         }
     .slide_name{
         font-size: $font-body-md;
-        font-weight: 700;
+        font-weight: $font-weight-bold;
         }
     }
 }
@@ -241,15 +160,8 @@ body {
 
 
 .section_05{
-    h1{
-        margin-bottom: $spacing-md;
-    }
-
-    button{
-        margin-top: $spacing-sm;
-        width: 40%;
-        font-size: $font-body-md;
-        
+    h2{
+        margin-bottom: $spacing-xxs;
     }
 }
 
@@ -279,12 +191,16 @@ body {
 
 .section_07{
     background: #FEE7D7;
+    h1{
+        font-size: $font-heading-md;
+        font-weight: $font-weight-semibold;
+    }
     .form-control {
         border: 1px solid $primary-01; 
         background: transparent;
         text-align: center;
         margin-top: 20px;
-        height: 50px
+        height: 55px;
     }
 }
 

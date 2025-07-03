@@ -1,16 +1,18 @@
    /* Spacing (Margin & Padding */
-    $spacing-xxs: 10px;
-    $spacing-xs: 12px;
-    $spacing-sm: 15px;
-    $spacing-md: 25px;
-    $spacing-mdl: 30px;
-    $spacing-lg: 48px;
-    $spacing-xl:  80px;
+    $spacing-xxxs: 15px;
+    $spacing-xxs: 20px;
+    $spacing-xs: 45px;
+    $spacing-sm: 50px;
+    $spacing-md: 70px;
+    $spacing-lg: 80px;
+    $spacing-xl: 87px;
     $spacing-xxl: 160px;
+    $spacing-xxl: 185px;
 
     /* black 색상 */
-    $black-01: #2E2E2E;
-    $black-02: #4A4A4A;
+    $black-00: #2E2E2E;
+    $black-01: #D9D9D9;
+
 
     /* Point 색상 */
     $primary-00:#F2600C;
@@ -25,12 +27,13 @@
     $font-weight-regular: 400;   
     $font-weight-semibold: 600; 
     $font-weight-bold: 700; 
-
+ 
      /* font-size */
     $font-heading-xxl: 3.4286rem; // 48px
+
     $font-heading-xl: 2.7143rem;  // 38px
     $font-heading-lg: 2.2857rem;  // 32px
-    $font-heading-md: 1.5714rem;  // 22px
+    $font-heading-md: 1.5714rem;  // 24px
   
     $font-body-lg: 1.4286rem;     // 20px
     $font-body-md: 1.2857rem;     // 18px
@@ -47,40 +50,32 @@
 }
 body{
     font-size: 14px;
-    letter-spacing: 0px;
 }
 ul,li{
     list-style: none;
 }
 
-img{
-    width: 100%;
+ 
+h1{
+    font-size: $font-heading-xl;
+    font-weight: $font-weight-regular;
 }
+span{
+    color: $primary-00;
+    font-weight: $font-weight-regular;
+}
+p{
+    color: $black-00;
+    font-weight: $font-weight-regular;
+}
+
+
 .container{
     padding: 80px 0;
 }
-
- 
-    h1{
-        font-size: $font-heading-xl;
-        font-weight: $font-weight-regular;
-    }
-    span{
-        color: $primary-01;
-        font-weight: $font-weight-regular;
-    }
-    p{
-        font-size: $font-caption;
-        font-weight: $font-weight-regular;
-    }
-
-    
-    .container{
-        padding: 80px 0;
-    }
-    .img{
-        width: 100%;
-    }
+.img{
+    width: 100%;
+}
 
 //nav
 .navbar{
@@ -115,46 +110,60 @@ img{
     }
 }
 
-//타이틀 
+//kv_title
 .kv-main-title{
     h1{
-        font-size: $font-heading-lg;
+        font-size: $font-heading-xl;
         font-weight: $font-weight-bold;
         margin: 0  0 88px 246px;
-        color: $black-01;
+        color: $black-00;
     }
 }
 
-// footer
+// sub_title
+.sub_main{
+    position: relative;
+    h2{
+        font-size: $font-heading-lg !important;        
+        position: absolute;
+        top: 150px;
+        color: $primary-05;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+// footer spacing 수정하기
 
 footer{
     .footer__container{
-        padding: $spacing-mdl !important; 
+        padding: $spacing-xs !important; 
     .footer__logo{
-        width: 10%;
-        margin-bottom: $spacing-mdl;
-    }
+        width: 15%;
+        margin-bottom: $spacing-xs; 
+    } 
     .footer__icon{
-        margin-bottom: $spacing-mdl;
+        margin-bottom: $spacing-xs;
         font-size: $font-body-sm;
     }
     .footer__text{
         font-size: $font-caption-s;
     }
-    }
+    } 
 
 }
 
 //cta
 .cta{
-    gap:20%;
+    margin-top: $spacing-md;
+    gap:10%;
     .button{ 
-        padding: 10px 48px;
-        background-color: $primary-01;
+        padding: 15px 48px;
+        background-color: $primary-00;
         font-size: $font-caption;
         color: #FFFFFF;
         border-radius: 10px;
-        border: 1px solid $primary-01;
+        border: 1px solid $primary-00;
         width: 250px;
         
         .orange_arrow{
@@ -171,7 +180,7 @@ footer{
 
         &:hover{
             background-color: transparent;
-            color: $primary-01; 
+            color: $primary-00; 
             transition: all 0.3s ease;
 
             img{
@@ -186,15 +195,15 @@ footer{
 
 
     .button_outline{
-        padding: 10px 48px;
-        background-color: transparent;
+        padding: 15px 48px;
+        background-color: transparent; 
         border: 1px solid $primary-01;
         color: $primary-01;
         border-radius: 10px;
         transition: all 0.3s ease;
         font-size: $font-caption;
         width: 250px;
-
+ 
         .white_arrow{
             width: 20%;
         }
