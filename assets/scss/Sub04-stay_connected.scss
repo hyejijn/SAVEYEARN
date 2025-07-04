@@ -10,51 +10,6 @@ img{
     width: 100%;
 }
 
-
-
-
-// menu list 
-.kv-list{
-    .main_title{
-        font-size: $font-body-md;
-        font-weight: $font-weight-bold;
-        margin-left:246px;
-        color: $primary-00;
-    }
-}
-
-// kv_title
-// .sub_main{
-//     position: relative;
-
-//     h2{
-//         font-size: $font-caption;        
-//         position: absolute;
-//         top: 150px;
-//         color: $primary-05;
-//         left: 50%;
-//         transform: translateX(20%);
-//     }
-// }
-
-.sub_main{
-    position: relative;
-    // .main-text{
-    //     font-size: $font-heading-lg;
-    //     font-weight: $font-weight-bold;
-    //     color: $primary-05;
-    //     position: absolute;
-    //     z-index: 2;
-    //     top:127px;
-    //     left: 25%;
-    // }
-    .main-img{
-        position: relative;
-        z-index: 1;
-        width: 100%;
-    }
-}
-
 .sub04_title{
     font-size: $font-heading-xl;
     color: $black-00;
@@ -80,11 +35,16 @@ img{
             cursor: pointer;
         }
     }
-
 }
 .pagination{
     padding-bottom: $spacing-xl;
 }
 .page-link{
         color: $primary-01 !important;
+        &:hover{
+            background-color: $primary-04;
+        }
+        &:focus{
+            box-shadow:  none;
+        }
 }

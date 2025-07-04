@@ -173,22 +173,6 @@ img {
   width: 100%;
 }
 
-.kv-list .main_title {
-  font-size: 1.2857rem;
-  font-weight: 700;
-  margin-left: 246px;
-  color: #F2600C;
-}
-
-.sub_main {
-  position: relative;
-}
-.sub_main .main-img {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-}
-
 .sub04_title {
   font-size: 2.7143rem;
   color: #2E2E2E;
@@ -219,4 +203,10 @@ img {
 
 .page-link {
   color: #FC7E27 !important;
+}
+.page-link:hover {
+  background-color: #FFF4ED;
+}
+.page-link:focus {
+  box-shadow: none;
 }/*# sourceMappingURL=Sub04-stay_connected.css.map */
