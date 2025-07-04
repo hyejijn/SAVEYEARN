@@ -6,8 +6,7 @@
     $spacing-md: 70px;
     $spacing-lg: 80px;
     $spacing-xl: 87px;
-    $spacing-xxl: 160px;
-    $spacing-xxl: 185px;
+    $spacing-xxl: 160px; 
 
     /* black 색상 */
     $black-00: #2E2E2E;
@@ -54,8 +53,9 @@ body{
 ul,li{
     list-style: none;
 }
-
- 
+img{
+    width: 100%;
+}
 h1{
     font-size: $font-heading-xl;
     font-weight: $font-weight-regular;
@@ -69,13 +69,10 @@ p{
     font-weight: $font-weight-regular;
 }
 
-
 .container{
     padding: 80px 0;
 }
-.img{
-    width: 100%;
-}
+
 
 //nav
 .navbar{

@@ -18,6 +18,10 @@ ul, li {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 h1 {
   font-size: 2.7143rem;
   font-weight: 400;
@@ -35,10 +39,6 @@ p {
 
 .container {
   padding: 80px 0;
-}
-
-.img {
-  width: 100%;
 }
 
 .navbar {
@@ -169,15 +169,8 @@ body h1 {
   font-family: "IBM Plex Sans KR", sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
-.sub04_title {
-  font-size: 2.7143rem;
-  color: #2E2E2E;
-  font-weight: 700;
-  margin-top: 80px;
+.connected__title {
+  padding-top: 185px;
 }
 
 .table {
@@ -195,6 +188,9 @@ img {
   vertical-align: middle !important;
   padding: 20px;
   cursor: pointer;
+}
+.table tbody tr:hover {
+  background-color: #FFF4ED;
 }
 
 .pagination {

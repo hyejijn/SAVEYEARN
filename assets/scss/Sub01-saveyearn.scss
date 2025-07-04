@@ -45,7 +45,7 @@ body {
             z-index: 1;
         }
     }
-
+// menu list 
 .kv-tab-list{
             padding-left: 246px;
     .tab-btn{
@@ -53,7 +53,6 @@ body {
         color: $black-00;
         font-weight: $font-weight-bold; 
         margin-right: $spacing-lg;
-
 
         &:hover{
             text-decoration: none;
@@ -129,6 +128,14 @@ body {
                 &:focus{
                     outline: none;
                     box-shadow: none !important;
+            }
+            .fa-paw{
+                color: $primary-01;
+            }
+            .btn-link{
+                &:focus{
+                    box-shadow: none;
+                }
             }
         }
 

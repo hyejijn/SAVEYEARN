@@ -6,15 +6,8 @@ body {
         font-family: 'IBM Plex Sans KR', sans-serif;
     }
 }
-img{
-    width: 100%;
-}
-
-.sub04_title{
-    font-size: $font-heading-xl;
-    color: $black-00;
-    font-weight: $font-weight-bold;
-    margin-top: $spacing-lg;
+.connected__title{
+     padding-top: $spacing-xxl;
 }
 
 
@@ -33,6 +26,13 @@ img{
             vertical-align: middle !important;
             padding: $spacing-xxs;
             cursor: pointer;
+        }
+    }
+    tbody{
+        tr{
+            &:hover{
+                background-color: $primary-04;
+            }
         }
     }
 }

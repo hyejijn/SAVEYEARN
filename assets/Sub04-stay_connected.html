@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,34 @@
   </head>
   <body>
     <header>
+    <nav class="navbar container d-flex justify-content-between align-items-center">
 
+        <div class="navbar__left d-flex align-items-center">
+            <a href="http://127.0.0.1:5500/index.html" class="navbar__logo"><img src="../assets/images/logo.svg" alt="로고 이미지">
+            </a>
+        <button class="navbar__ghost">
+            <i class="fa-solid fa-bars ghost_btn"></i>
+        </button> 
+        </div>
+
+        <ul class="navbar__menu d-flex justify-content-center align-items-center mb-0">
+            <li>
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub01-saveyearn.html">센터소개</a>
+            </li>
+            <li>
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub02-get_involved.html">자원봉사</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub03-meet_your_match.html">입양/임보</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub04-stay_connected.html">커뮤니티</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub05-transparency.html">재정보고</a>
+            </li>
+        </ul>   
+    </nav>
     </header>
 
     <!-- kv_title -->
@@ -35,9 +62,12 @@
       </div>
     </div>
 
-    <div class="row text-center sub04_title">
-      <h2 class="col-md-12">소소한 이야기</h2>
+    <div class="container-fluid">
+      <div class="row text-center"> 
+            <h2 class="col-md-12 connected__title">소소한 이야기 </h2>
+      </div>
     </div>
+
 
     <!-- table -->
     <section>

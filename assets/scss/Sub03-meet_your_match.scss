@@ -7,36 +7,23 @@ body {
     }
 }
 
-h2{
-    font-size: $font-heading-xxl;
-    font-weight:$font-weight-bold;
-    margin-top: $spacing-lg;
-}
-p{
-    font-size: $font-body-lg;
-    font-weight: $font-weight-bold;
-    margin: 0;
-}
-img{
-    width: 100%;
-}
-
-
 // menu list 
 .kv-tab-list{
-            margin-left:246px;
+            padding-left: 246px;
     .tab-btn{
-        font-size: $font-caption;
-        font-weight: $font-weight-bold; 
-        margin-right: 50px;
+        font-size: $font-body-sm;
         color: $black-00;
+        font-weight: $font-weight-bold; 
+        margin-right: $spacing-lg;
+
 
         &:hover{
             text-decoration: none;
-            color: $primary-03 !important;
+            color: $black-01 !important;
+            border-bottom: $primary-01;
+            cursor: pointer;
     }
     }
-
 }
 
 
@@ -59,34 +46,6 @@ img{
     font-size: $font-body-lg;
     color: $black-00;
     font-weight: $font-weight-regular;
-}
-
-header{
-    .navbar{
-    flex-wrap: nowrap !important;
-    padding: 49px;
-
-
-    .navbar__ghost{
-        display: none;
-        background: transparent;
-        border: none; 
-    }
-
-    .navbar__menu{
-        gap: 50px;
-
-        li{
-            list-style: none;
-            font-size: $font-body-sm;
-            font-weight: $font-weight-semibold;
-        }
-        a{
-            color: #2e2e2e;
-        }
-    }
-
-    }
 }
 
 .tab-content {

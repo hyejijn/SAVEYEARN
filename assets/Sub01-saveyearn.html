@@ -19,7 +19,34 @@
 
 <body>
 <header>
+    <nav class="navbar container d-flex justify-content-between align-items-center">
 
+        <div class="navbar__left d-flex align-items-center">
+            <a href="http://127.0.0.1:5500/index.html" class="navbar__logo"><img src="../assets/images/logo.svg" alt="로고 이미지">
+            </a>
+        <button class="navbar__ghost">
+            <i class="fa-solid fa-bars ghost_btn"></i>
+        </button> 
+        </div>
+
+        <ul class="navbar__menu d-flex justify-content-center align-items-center mb-0">
+            <li>
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub01-saveyearn.html">센터소개</a>
+            </li>
+            <li>
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub02-get_involved.html">자원봉사</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub03-meet_your_match.html">입양/임보</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub04-stay_connected.html">커뮤니티</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub05-transparency.html">재정보고</a>
+            </li>
+        </ul>   
+    </nav>
 </header>
 
 <!-- kv_title -->
@@ -117,19 +144,21 @@
                 <h2 class="col-md-12 main-text">모든 생명은 사랑받을 자격이 있습니다</h2>
             </div>                
             <div class="main-img">
-                <img class="" src="../assets/images/sub/sub01_main-img02.png" alt="자주묻는질문 메인 강아지 이미지">
+                <img src="../assets/images/sub/sub01_main-img02.png" alt="자주묻는질문 메인 강아지 이미지">
             </div>
             </div>
 
             <div class="row text-center"> 
-            <h2 class="col-md-12 faq__title">자주묻는질문 </h2>
+                <h2 class="col-md-12 faq__title">자주묻는질문 </h2>
             </div>
+            
           <div class="accordion" id="accordionExample">
             <div class="card">
                 <div class="card-header" id="Q1">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Q1. 입양 전에 직접 만나볼 수 있나요?
+                        <i class="fa-solid fa-paw"></i>
                     </button>
     
                 </h5>
@@ -144,8 +173,9 @@
             <div class="card">
                 <div class="card-header" id="Q2">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Q2. 입양은 누구나 가능한가요?
+                    <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -160,8 +190,9 @@
             <div class="card">
                 <div class="card-header" id="Q3">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Q. 후원은 어떻게 하나요?
+                    <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -176,8 +207,9 @@
             <div class="card">
                 <div class="card-header" id="Q4">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     Q. 봉사활동은 주말에도 가능한가요?
+                    <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -192,8 +224,9 @@
             <div class="card">
                 <div class="card-header" id="Q5">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Q. 후원금은 어디에 사용되나요?
+                    <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -208,8 +241,9 @@
             <div class="card">
                 <div class="card-header" id="Q6">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     Q. 강아지를 입양하면 준비해야 할 것이 있나요?
+                    <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -223,8 +257,9 @@
             <div class="card">
                 <div class="card-header" id="Q7">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSev" aria-expanded="false" aria-controls="collapseSev">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseSev" aria-expanded="false" aria-controls="collapseSev">
                     Q. 후원 내역은 확인할 수 있나요?
+                    <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -238,8 +273,9 @@
             <div class="card">
                 <div class="card-header" id="Q8">
                 <h5 class="mb-0 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-link btn-block text-left collapsed " type="button" data-toggle="collapse" data-target="#collapseEig" aria-expanded="false" aria-controls="collapseEig">
+                    <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between align-items-center" type="button" data-toggle="collapse" data-target="#collapseEig" aria-expanded="false" aria-controls="collapseEig">
                     Q. 직접 후원 물품을 보내고 싶은데 가능할까요?
+                     <i class="fa-solid fa-paw"></i>
                     </button>
 
                 </h5>
@@ -324,6 +360,7 @@ ghost_btn.addEventListener('click',()=>{
 })
 </script>
 
+<!-- tab -->
  <script>
 $(function () {
     $('#intro').addClass('active'); //첫번째 탭 활성화
@@ -337,7 +374,6 @@ $(function () {
     $('#' + target).addClass('active');
   });
 });
-
-  </script>
+</script>
 </body>
 </html>

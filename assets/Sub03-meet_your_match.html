@@ -17,7 +17,34 @@
 
   <body>
     <header>
+    <nav class="navbar container d-flex justify-content-between align-items-center">
 
+        <div class="navbar__left d-flex align-items-center">
+            <a href="http://127.0.0.1:5500/index.html" class="navbar__logo"><img src="../assets/images/logo.svg" alt="로고 이미지">
+            </a>
+        <button class="navbar__ghost">
+            <i class="fa-solid fa-bars ghost_btn"></i>
+        </button> 
+        </div>
+
+        <ul class="navbar__menu d-flex justify-content-center align-items-center mb-0">
+            <li>
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub01-saveyearn.html">센터소개</a>
+            </li>
+            <li>
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub02-get_involved.html">자원봉사</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub03-meet_your_match.html">입양/임보</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub04-stay_connected.html">커뮤니티</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav__link" href="http://127.0.0.1:5500/assets/Sub05-transparency.html">재정보고</a>
+            </li>
+        </ul>   
+    </nav>
     </header>
     <!-- kv_title -->
     <section>
@@ -26,16 +53,17 @@
       </div>
     </section>
 
-    <div>
-      <ul class="d-flex kv-tab-list pl-0">
-        <li><a href="" class="tab-btn active" data-target="tab1">아이들</a></li>
-        <li><a href="" class="tab-btn" data-target="tab2">입양</a></li>
-        <li><a href="" class="tab-btn" data-target="tab3">임시보호</a></li>
-      </ul>
+    <!-- tab -->
+    <div class="kv-tab-list container-fluid d-flex">
+        <ul class="d-flex pl-0">
+            <li class="tab-btn active" data-tab="0" data-target="pet">아이들</li>
+            <li class="tab-btn" data-tab="1"  data-target="adoption">입양</li>
+            <li class="tab-btn" data-tab="2"  data-target="temporary">임시보호</li>
+        </ul>
     </div>
 
     <!-- tab_content01 -->
-    <div class="tab-content container-fluid" id="tab1">
+    <div class="tab-content container-fluid" id="pet">
       <div class="sub03 sub_main-kv">
         <div class="sub_main">
           <h2 class="main-text">소중한 인연이 될 아이들과 지금 만나보세요.</h2>
@@ -228,7 +256,7 @@
     </div>
 
     <!-- tab_content02 -->
-    <div class="tab-content container-fluid" id="tab2">
+    <div class="tab-content container-fluid" id="adoption">
       <div class="sub03 sub_main-kv">
         <div class="sub_main text-center">
           <h2 class="main-text">
@@ -308,7 +336,7 @@
     </div>
 
     <!-- tab_content03 -->
-    <div class="tab-content container-fluid" id="tab3">
+    <div class="tab-content container-fluid" id="temporary">
       <div class="sub03 sub_main-kv">
         <div class="sub_main text-center">
           <h2 class="main-text">
@@ -428,26 +456,20 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <!-- tab -->
     <script>
-      $(function () {
-        $(".tab-btn").click(function (e) {
-          e.preventDefault();
+    $(function () {
+        $('#pet').addClass('active'); //첫번째 탭 활성화
 
-          // 탭 버튼 상태 업데이트
-          $(".tab-btn").removeClass("active");
-          $(this).addClass("active");
+      $('.tab-btn').on('click', function () {
+        $('.tab-btn').removeClass('active');
+        $(this).addClass('active');
 
-          // 탭 콘텐츠 모두 숨기기
-          $(".tab-content").removeClass("active");
-
-          // 클릭된 탭의 타겟 콘텐츠 보여주기
-          const targetId = $(this).data("target");
-          $("#" + targetId).addClass("active");
-        });
-
-        // 초기 진입 시 첫 번째 탭 강제 클릭 (새로고침 대비)
-        $(".tab-btn.active").first().trigger("click");
+        const target = $(this).data('target'); 
+        $('.tab-content').removeClass('active');
+        $('#' + target).addClass('active');
       });
+    });
     </script>
   </body>
 </html>
