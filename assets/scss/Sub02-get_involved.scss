@@ -17,6 +17,7 @@ body {
     .content01_item{
        .content01_icon{
         width: 30%;
+        margin-top: $spacing-md;
        } 
     }
 }
@@ -25,6 +26,7 @@ body {
     .content02_item{
        .content02_icon{
         width: 18%;
+        margin-top: $spacing-md;
        } 
     }
 }
@@ -35,7 +37,7 @@ body {
         margin-top: $spacing-md;
         color: $primary-01;
         font-weight: $font-weight-bold;
-        font-size: $font-body-lg;
+        font-size: $font-heading-md;
     } 
     .content01_desc{
         font-size: $font-body-md;
@@ -43,6 +45,8 @@ body {
         color: $black-00;
         font-weight: $font-weight-regular;
     }  
+
+
 }
 .sub02_title{
     font-size: $font-heading-md;
