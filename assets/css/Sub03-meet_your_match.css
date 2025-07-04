@@ -280,6 +280,7 @@ header .navbar .navbar__menu a {
 
 .numberimg {
   width: 60%;
+  margin-left: 15%;
 }
 
 #tab2 .sub_line::after, #tab3 .sub_line::after {
