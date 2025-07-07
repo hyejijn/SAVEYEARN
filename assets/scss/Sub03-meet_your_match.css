@@ -37,10 +37,6 @@ p {
   font-weight: 400;
 }
 
-.container {
-  padding: 80px 0;
-}
-
 .navbar {
   flex-wrap: nowrap !important;
   padding: 50px 0;
@@ -190,13 +186,15 @@ body h1 {
   position: relative;
   overflow: hidden;
 }
+
 .pet-content .pet-title {
+  width: 100%;
   padding: 10px 0;
-  text-align: center;
   background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
-  bottom: -30%;
+  bottom: -100%;
   transition: all 0.3s;
+  padding: 20%;
 }
 .pet-content .pet-iamges {
   width: 100%;
@@ -207,21 +205,18 @@ body h1 {
 
 .pet-content:hover .pet-title {
   bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-wrap: nomal;
 }
 
-.kv-tab-list .tab-btn {
-  font-size: 1.0714rem;
+.nav-link{
+  font-size: 1.0714rem; 
   color: #2E2E2E;
   font-weight: 700;
-  margin-right: 80px;
+  margin-right:80px;
+  background-color: none;
 }
-.kv-tab-list .tab-btn:hover {
-  text-decoration: none;
-  color: #D9D9D9 !important;
-  border-bottom: #FC7E27;
-  cursor: pointer;
-}
-
 .sub03 {
   position: relative;
 }
@@ -242,34 +237,7 @@ body h1 {
   font-weight: 400;
 }
 
-.sub_photo .adapt {
-  width: 33%;
-  padding: 30px;
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
-.sub_photo .adapt:hover .description {
-  transform: translateY(-150%);
-}
-.sub_photo .adapt .petcard {
-  width: 100%;
-  height: auto;
-}
-.sub_photo .adapt .description {
-  position: a;
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  background: rgba(255, 255, 255, 0.5);
-  transform: translateY(100%) translateY(-158px) translateZ(0);
-  transition: transform 0.5s ease-in;
-}
-.sub_photo .adapt .adapt_name p {
-  margin: 0;
-  padding: 10px 0;
-  font-weight: 700;
-}
+
 .sub_photo .adapt .icon {
   width: 5%;
 }
@@ -278,13 +246,11 @@ body h1 {
   margin-top: 5px;
   margin-bottom: 0;
 }
-.sub_photo .adapt .adapt_text {
-  font-weight: 300;
-}
+
 
 .numberimg {
   width: 60%;
-  margin-left: 15%;
+  margin: 15%;
 }
 
 #tab2 .sub_line::after, #tab3 .sub_line::after {
@@ -292,3 +258,92 @@ body h1 {
   width: 100%;
   border: 1px solid #E2E2E2;
 }/*# sourceMappingURL=Sub03-meet_your_match.css.map */
+
+
+@media  (max-width:1199px){
+.pet-content .pet-title {
+  bottom: -40%;
+}
+}
+
+@media (max-width:992px){
+.pet-content .pet-title {
+  bottom: -71%;
+}
+}
+
+@media (max-width:768px){
+.kv-top {
+  height: 300px;
+}
+.kv-top .kv-text-title {
+  height: 300px;
+}
+.kv-text-title h2{
+  font-size: 1.5714rem;
+}
+.nav-link{
+  margin-right: 10px;
+}
+.pet-content .pet-title {
+  bottom: -24%;
+}
+.sub03_title {
+  font-size: 1.5714rem;
+  margin-bottom: 50px;
+}
+.sub03_subtitle {
+  font-size: 1.2857rem;
+}
+
+}
+@media (min-width:576px) and (max-width:767px){
+.kv-top {
+  height: 200px;
+}
+.kv-top .kv-text-title {
+  height: 200px;
+}
+.kv-text-title h2{
+  font-size: 1.2857rem;
+}
+.pet-content .pet-title {
+  bottom: -17%;
+}
+.sub03_title {
+  padding-top: 20px;
+   margin-bottom: 45px;
+}
+.numberimg{
+  display: none;
+}
+}
+@media (min-width:340px) and (max-width:575px){
+.kv-top {
+  height:100px;
+}
+.kv-top .kv-text-title {
+  height: 100px;
+}
+.kv-text-title h2{
+  font-size: 0.9286rem;
+}
+.nav-link{
+  font-size: 0.7143rem; 
+}
+
+.pet-content .pet-title {
+  bottom: -23%;
+}
+.sub03_title{
+  font-size: 0.9286rem;
+  margin-bottom: 20px;
+}
+.sub03_subtitle{
+  font-size: 0.7143rem;
+}
+.numberimg{
+  display: none;
+}
+}
+
