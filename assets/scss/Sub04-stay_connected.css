@@ -27,10 +27,6 @@ h1 {
   font-weight: 400;
 }
 
-span {
-  color: #F2600C;
-  font-weight: 400;
-}
 
 p {
   color: #2E2E2E;
@@ -168,7 +164,9 @@ body h1 {
 .connected__title {
   padding-top: 80px;
 }
-
+.mo_container{
+  display: none;
+}
 .table {
   margin-top: 70px;
 }
@@ -261,6 +259,15 @@ body h1 {
 
 }
 @media (min-width:340px) and (max-width:575px){
+.table_wrap{
+  display: none;
+}
+.mo_container{
+  display: block;
+}
+.pc_page{
+  display: none;
+}
 .kv-top {
   height:100px;
 }
@@ -270,5 +277,34 @@ body h1 {
 .kv-text-title h2{
   font-size: 0.9286rem;
 }
-
+.connected__title{
+  display: none;
+}
+.mo_table{
+  border-top:2px solid #FC7E27;
+  border-bottom: 2px solid #FC7E27;
+  margin-top: 40px;
+}
+.table_description{
+  font-size: 10px;
+  display: flex;
+  justify-content:start;
+  gap: 20px;
+  margin-top: 5px;
+}
+.bullet{
+  font-weight: 800;
+  color: #FC7E27;
+}
+.reple{
+  font-size: 8px;
+  color: #FC7E27;
+}
+.mo_cell{
+  padding: 10px 15px;
+  border-bottom: 1px solid #FC7E27;
+}
+.mo_page{
+  margin-top: 20px;
+}
 }

@@ -29,12 +29,6 @@ h1 {
 h2{
   margin-bottom: 0;
 }
-
-span {
-  color: #F2600C;
-  font-weight: 400;
-}
-
 p {
   color: #2E2E2E;
   font-weight: 400;
@@ -200,7 +194,7 @@ body h1 {
   font-size: 1.5714rem;
   font-weight: 700;
   color: #FFF8F4;
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 15px 0;
 }
 
@@ -252,12 +246,13 @@ footer {
   gap: 10%;
 }
 .cta .button{
-  text-align: center;
+  justify-content: center !important;
   font-size: 0.7143rem;
   padding: 10px 25px;
   width: 145px;
 }
 .cta .button_outline{
+  justify-content: center !important;
   text-align: center;
   font-size: 0.7143rem;
   padding: 10px 25px;
@@ -277,10 +272,11 @@ footer {
 .cta .button_outline:hover .icon_hover {
   display: block;
 }
-.content02_items{
+.content02_items, .content01_items{
   padding-bottom: 20px;
 }
-.content02_items{
-  padding-bottom: 20px;
-}
+
+
+
+
 }
