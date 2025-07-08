@@ -183,6 +183,7 @@ body h1 {
 }
 
 .pet-content {
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -190,12 +191,16 @@ body h1 {
 .pet-content .pet-title {
   width: 100%;
   padding: 10px 0;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: -100%;
   transition: all 0.3s;
   padding: 20%;
 }
+.pet-title p{
+  color: #FFF8F4;
+}
+
 .pet-content .pet-iamges {
   width: 100%;
 }
@@ -230,6 +235,10 @@ body h1 {
   margin-bottom: 70px;
   font-weight: 700;
 }
+.sub03_title img{
+  width: 5%;
+}
+
 
 .sub03_subtitle {
   font-size: 1.4286rem;

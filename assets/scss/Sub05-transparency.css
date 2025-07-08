@@ -67,25 +67,23 @@ p {
   border-bottom: 3px solid #FC7E27;
 }
 
-.kv-main-title h1 {
-  font-size: 2.7143rem;
-  font-weight: 700;
-  margin: 0 0 88px 246px;
-  color: #2E2E2E;
-}
-
-.sub_main {
+/* kv_title */
+.kv-top {
   position: relative;
+  height: 400px;
+  background: url("../images/sub/sub05_main-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.sub_main h2 {
-  font-size: 2.2857rem !important;
-  position: absolute;
-  top: 150px;
-  color: #FFF8F4;
-  left: 50%;
-  transform: translateX(-50%);
+.kv-top .kv-text-title {
+  height: 400px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 }
-
 footer .footer__container {
   padding: 45px !important;
 }
