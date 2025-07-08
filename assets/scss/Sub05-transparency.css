@@ -36,11 +36,6 @@ p {
   color: #2E2E2E;
   font-weight: 400;
 }
-
-.container {
-  padding: 80px 0;
-}
-
 .navbar {
   flex-wrap: nowrap !important;
   padding: 50px 0;
@@ -263,3 +258,38 @@ img {
   color: #FC7E27;
   padding: 70px;
 }/*# sourceMappingURL=Sub05-transparency.css.map */
+
+
+@media (min-width:340px) and (max-width:575px){
+.kv-top {
+  height:100px;
+}
+.kv-top .kv-text-title {
+  height: 100px;
+}
+.kv-text-title h2{
+  font-size: 0.9286rem;
+}
+.part01 .part01_title{
+  font-size: 0.9286rem;
+    padding: 20px;
+}
+.part01 .chart01{
+  padding-top: 40px;
+}
+.part02 .part02_title{
+  font-size: 0.9286rem;
+    padding: 20px;
+}
+.part03 .part03_title{
+  font-size: 0.9286rem;
+  padding: 20px;
+}
+.sub03_title{
+  font-size:  1.0714rem;
+  margin-bottom: 20px;
+}
+.sub03_subtitle{
+  font-size: 0.7143rem;
+}
+}

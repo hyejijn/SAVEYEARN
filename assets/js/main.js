@@ -33,7 +33,7 @@ $(function(){
         '#FF8A80', '#FFD180', '#A5D6A7', '#90CAF9', '#CE93D8'
         ],
         hoverOffset: 30
-    }]
+    }],
     };
 
     const options = {
@@ -68,3 +68,5 @@ $(function(){
     });
 
 })
+
+

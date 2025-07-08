@@ -281,9 +281,10 @@ body h1 {
   display: none;
 }
 .mo_table{
-  border-top:2px solid #FC7E27;
-  border-bottom: 2px solid #FC7E27;
   margin-top: 40px;
+}
+.bordertop{
+  border-top: 1px solid #FC7E27;
 }
 .table_description{
   font-size: 10px;
