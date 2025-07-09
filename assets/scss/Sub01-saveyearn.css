@@ -269,45 +269,46 @@ body img {
   margin-bottom: 87px;
 }
 
-.sub01_faq .faq__title {
+.faq__title {
   padding-top: 160px;
 }
-.sub01_faq .accordion {
+.accordion {
   margin-top: 70px;
   padding: 0 95px;
 }
-.sub01_faq .accordion .card {
+.accordion .card {
   border: none;
-  border-bottom: 3px solid #fed4b7;
+  border-bottom: 3px solid #fed4b7 !important;
 }
-.sub01_faq .accordion .card .card-header {
+.accordion .card .card-header {
   background: #fff;
   border-bottom: none;
 }
-.sub01_faq .accordion .card .card-header .btn {
+.accordion .card .card-header .btn {
   padding: 16px 24px;
   background: transparent;
   color: #2e2e2e;
+  text-decoration: none;
 }
-.sub01_faq .accordion .card .card-header .btn:not(.collapsed) {
+.accordion .card .card-header .btn:not(.collapsed) {
   background: #f2600c;
   color: #fff8f4;
 }
-.sub01_faq .accordion .card .card-header:focus {
+.accordion .card .card-header:focus {
   outline: none;
   box-shadow: none !important;
 }
-.sub01_faq .accordion .card .card-header .fa-paw {
+.accordion .card .card-header .fa-paw {
   color: #fc7e27;
 }
-.sub01_faq .accordion .card .card-header .btn-link:focus {
+.accordion .card .card-header .btn-link:focus {
   box-shadow: none;
 }
-.sub01_faq .accordion .card-body {
+.accordion .card-body {
   margin: 16px 24px;
   background: #fff8f4;
 }
-.sub01_faq .btn-link {
+.btn-link {
   font-size: 1.0714rem;
   font-weight: 700;
   color: #2e2e2e;

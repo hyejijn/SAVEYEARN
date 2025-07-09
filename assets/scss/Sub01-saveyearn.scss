@@ -1,168 +1,157 @@
-@import 'common';
+@import "common";
 
 body {
-    font-family: 'Noto Sans KR', sans-serif; 
-    h1{
-        font-family: 'IBM Plex Sans KR', sans-serif;
-    }
-    img{
-        width: 100%;
-    }
+  font-family: "Noto Sans KR", sans-serif;
+  h1 {
+    font-family: "IBM Plex Sans KR", sans-serif;
+  }
+  img {
+    width: 100%;
+  }
 }
 
-.container-fluid{
-    padding-left: 0;
+.container-fluid {
+  padding-left: 0;
 }
-.part01_main{
-        position: absolute;
-        z-index: 1;
-        left: 50%; 
-        transform: translateX(-50%);
-        top: 40%;
-        .main-text {
-            font-size: $font-heading-xxl;
-            color: $primary-01;
-            font-weight: $font-weight-bold;
-        }
-        .sub_text{
-            color: $primary-04;
-            font-size: $font-body-lg;
-            font-weight: $font-weight-bold;
-            margin-top: $spacing-xxs;
-        }
-        .description{
-            color: $primary-04;
-            font-size: $font-body-sm;
-            font-weight: $font-weight-bold;
-            margin-top: $spacing-xxs;
-        }
-        .sub01_main{
-            position: absolute;
-            z-index: 2;
-        }
-        .sub01_main-img{
-            position: relative;   
-            z-index: 1;
-        }
-    }
-// menu list 
-.kv-tab-list{
-            padding-left: 246px;
-    .tab-btn{
-        font-size: $font-body-sm;
-        color: $black-00;
-        font-weight: $font-weight-bold; 
-        margin-right: $spacing-lg;
-
-        &:hover{
-            text-decoration: none;
-            color: $black-01 !important;
-            border-bottom: $primary-01;
-            cursor: pointer;
-    }
-    }
+.part01_main {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  .main-text {
+    font-size: $font-heading-xxl;
+    color: $primary-01;
+    font-weight: $font-weight-bold;
+  }
+  .sub_text {
+    color: $primary-04;
+    font-size: $font-body-lg;
+    font-weight: $font-weight-bold;
+    margin-top: $spacing-xxs;
+  }
+  .description {
+    color: $primary-04;
+    font-size: $font-body-sm;
+    font-weight: $font-weight-bold;
+    margin-top: $spacing-xxs;
+  }
+  .sub01_main {
+    position: absolute;
+    z-index: 2;
+  }
+  .sub01_main-img {
+    position: relative;
+    z-index: 1;
+  }
 }
+// menu list
+.kv-tab-list {
+  padding-left: 246px;
+  .tab-btn {
+    font-size: $font-body-sm;
+    color: $black-00;
+    font-weight: $font-weight-bold;
+    margin-right: $spacing-lg;
 
-.tab-content{
-    .part02, .part03, .part04{
-        .main-text {
-            font-size: $font-heading-xxl;
-            font-weight: $font-weight-bold;
-            margin-bottom: 30px;
-            color: $primary-01;
-        }
-        .sub_text{
-            font-size: $font-heading-md;
-            font-weight: $font-weight-bold;
-            margin-bottom: 30px;
-        }
-        .description{
-            font-size: $font-body-sm;
-            font-weight: $font-weight-bold;
-            margin: 0;
-        }
+    &:hover {
+      text-decoration: none;
+      color: $black-01 !important;
+      border-bottom: $primary-01;
+      cursor: pointer;
     }
-    .part02{
-        .text_content{
-            margin-left: $spacing-xs;
-    }
-    }
-    .part03{
-        .text_content{
-            margin-right: $spacing-xs;
-        }
-    }
-    .part04{
-        .text-center{
-            margin-top: $spacing-xl;
-            margin-bottom: $spacing-xl;
-        }
-
-    } 
+  }
 }
-
-.sub01_faq{
-    .faq__title{
-        padding-top: $spacing-xxl;
-    }
-    .accordion{
-        margin-top: $spacing-md;
-        padding: 0 95px;
-        .card{
-            border: none;
-            border-bottom: 3px solid $primary-03;
-        .card-header{
-            background: #fff;
-            border-bottom: none;
-
-           
-           .btn{
-            padding: 16px 24px; 
-            background: transparent;
-            color: $black-00;
-             &:not(.collapsed) {
-                background: $primary-00;
-                color:$primary-05;
-            }
-            }
-                &:focus{
-                    outline: none;
-                    box-shadow: none !important;
-            }
-            .fa-paw{
-                color: $primary-01;
-            }
-            .btn-link{
-                &:focus{
-                    box-shadow: none;
-                }
-            }
-        }
-
-        }
-        .card-body{
-            margin: 16px 24px; 
-            background: $primary-05;
-        } 
-
-
-    }
-    .btn-link{
-        font-size: $font-body-sm;
-        font-weight: $font-weight-bold;
-        color: $black-00;   
-        text-decoration: none; 
-    }
-}
-
-.button_row{
-    padding-bottom:$spacing-lg;
-}
-//tab
 
 .tab-content {
-  display: none;
+  .part02,
+  .part03,
+  .part04 {
+    .main-text {
+      font-size: $font-heading-xxl;
+      font-weight: $font-weight-bold;
+      margin-bottom: 30px;
+      color: $primary-01;
+    }
+    .sub_text {
+      font-size: $font-heading-md;
+      font-weight: $font-weight-bold;
+      margin-bottom: 30px;
+    }
+    .description {
+      font-size: $font-body-sm;
+      font-weight: $font-weight-bold;
+      margin: 0;
+    }
+  }
+  .part02 {
+    .text_content {
+      margin-left: $spacing-xs;
+    }
+  }
+  .part03 {
+    .text_content {
+      margin-right: $spacing-xs;
+    }
+  }
+  .part04 {
+    .text-center {
+      margin-top: $spacing-xl;
+      margin-bottom: $spacing-xl;
+    }
+  }
 }
-.tab-content.active {
-  display: block;
+
+.sub01_faq {
+  .faq__title {
+    padding-top: $spacing-xxl;
+  }
+  .accordion {
+    margin-top: $spacing-md;
+    padding: 0 95px;
+    .card {
+      border: none;
+      border-bottom: 3px solid $primary-03;
+      .card-header {
+        background: #fff;
+        border-bottom: none;
+
+        .btn {
+          padding: 16px 24px;
+          background: transparent;
+          color: $black-00;
+          &:not(.collapsed) {
+            background: $primary-00;
+            color: $primary-05;
+          }
+        }
+        &:focus {
+          outline: none;
+          box-shadow: none !important;
+        }
+        .fa-paw {
+          color: $primary-01;
+        }
+        .btn-link {
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+    .card-body {
+      margin: 16px 24px;
+      background: $primary-05;
+    }
+  }
+  .btn-link {
+    font-size: $font-body-sm;
+    font-weight: $font-weight-bold;
+    color: $black-00;
+    text-decoration: none;
+  }
+}
+
+.button_row {
+  padding-bottom: $spacing-lg;
 }

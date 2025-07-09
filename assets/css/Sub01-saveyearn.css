@@ -221,18 +221,24 @@ body img {
   cursor: pointer;
 }
 
-.tab-content .part02 .main-text, .tab-content .part03 .main-text, .tab-content .part04 .main-text {
+.tab-content .part02 .main-text,
+.tab-content .part03 .main-text,
+.tab-content .part04 .main-text {
   font-size: 3.4286rem;
   font-weight: 700;
   margin-bottom: 30px;
   color: #FC7E27;
 }
-.tab-content .part02 .sub_text, .tab-content .part03 .sub_text, .tab-content .part04 .sub_text {
+.tab-content .part02 .sub_text,
+.tab-content .part03 .sub_text,
+.tab-content .part04 .sub_text {
   font-size: 1.5714rem;
   font-weight: 700;
   margin-bottom: 30px;
 }
-.tab-content .part02 .description, .tab-content .part03 .description, .tab-content .part04 .description {
+.tab-content .part02 .description,
+.tab-content .part03 .description,
+.tab-content .part04 .description {
   font-size: 1.0714rem;
   font-weight: 700;
   margin: 0;
@@ -295,12 +301,4 @@ body img {
 
 .button_row {
   padding-bottom: 80px;
-}
-
-.tab-content {
-  display: none;
-}
-
-.tab-content.active {
-  display: block;
 }/*# sourceMappingURL=Sub01-saveyearn.css.map */
