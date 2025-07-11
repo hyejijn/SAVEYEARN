@@ -71,6 +71,9 @@ a:hover {
   nav ul li a {
     font-size: 16px;
   }
+  nav ul {
+    background: #fff;
+  }
 }
 @media (max-width: 858px) {
   .check-btn {
@@ -78,7 +81,7 @@ a:hover {
   }
   ul {
     position: fixed;
-    height: 100vh;
+    height: 40vh;
     width: 100%;
     background: transparent;
     top: 80px;

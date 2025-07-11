@@ -75,7 +75,7 @@ footer .footer__container .footer__icon {
 footer .footer__container .footer__text {
   font-size: 0.7143rem;
 }
-
+/* button */
 .cta .button {
   padding: 15px 48px;
   background-color: #f2600c;
@@ -83,7 +83,7 @@ footer .footer__container .footer__text {
   color: #ffffff;
   border-radius: 10px;
   border: 1px solid #f2600c;
-  width: 250px;
+  width: 100%;
 }
 .cta .button .orange_arrow {
   width: 20%;
@@ -112,7 +112,7 @@ footer .footer__container .footer__text {
   border-radius: 10px;
   transition: all 0.3s ease;
   font-size: 0.9286rem;
-  width: 250px;
+  width: 100%;
 }
 .cta .button_outline .white_arrow {
   width: 20%;
@@ -313,6 +313,14 @@ body h1 {
   .container {
     padding: 50px 0;
   }
+  .mo_title,
+  .section_04 h2,
+  .section_05 h2,
+  .section_06 h2,
+  .section_07 h2 {
+    font-size: 0.9286rem;
+    margin-bottom: 0;
+  }
   /* section01 */
   .sec01_main {
     display: flex;
@@ -424,14 +432,6 @@ body h1 {
   .gallery {
     margin-bottom: 10px;
   }
-  .mo_title,
-  .section_04 h2,
-  .section_05 h2,
-  .section_06 h2,
-  .section_07 h2 {
-    font-size: 0.9286rem;
-    margin-bottom: 0;
-  }
 
   /* section07 */
   .section_07 .container {
@@ -454,19 +454,27 @@ body h1 {
     width: 100%;
   }
   .cta .button_outline {
-    justify-content: center !important;
+    justify-content: space-between;
     text-align: center;
     margin-top: 20px;
     font-size: 0.7143rem;
     padding: 10px 25px;
-    width: 145px;
+    width: 80%;
   }
   .cta .button {
-    justify-content: center !important;
+    justify-content: space-between;
     text-align: center;
     margin-top: 20px;
     font-size: 0.7143rem;
     padding: 10px 25px;
-    width: 145px;
+    width: 80%;
+  }
+  .section_07 .cta .button_outline {
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.7143rem;
+    padding: 10px 25px;
+    width: 150px;
   }
 }
