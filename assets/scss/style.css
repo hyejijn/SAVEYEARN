@@ -368,6 +368,9 @@ body h1 {
     padding: 15px 0;
     text-align: center;
   }
+  .section__item {
+    margin-top: 20px;
+  }
   .section__item .section03__card {
     display: none;
   }
@@ -378,6 +381,10 @@ body h1 {
     font-weight: 700;
     text-align: center;
   }
+  .section__item .section03__subtext {
+    font-size: 0.7143rem;
+    text-align: center;
+  }
 
   /* section04 */
   .section04__main-title h2,
@@ -385,12 +392,14 @@ body h1 {
     display: none;
   }
   .section_04 .mo_title {
+    display: block;
     margin-top: 50px;
     font-size: 0.9286rem !important;
     color: #fff;
     background-color: #f2600c;
     padding: 15px 0;
     text-align: center;
+    margin-bottom: 20px;
   }
   /* section05 */
   .section05__main-title {
@@ -457,7 +466,7 @@ body h1 {
     justify-content: center !important;
     text-align: center;
     margin-top: 20px;
-    font-size: 0.7143rem;
+    font-size: 0.9286rem;
     padding: 10px 25px;
     width: 100%;
   }

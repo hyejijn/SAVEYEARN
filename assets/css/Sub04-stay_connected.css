@@ -14,7 +14,8 @@ body {
   font-size: 14px;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -28,12 +29,12 @@ h1 {
 }
 
 span {
-  color: #F2600C;
+  color: #f2600c;
   font-weight: 400;
 }
 
 p {
-  color: #2E2E2E;
+  color: #2e2e2e;
   font-weight: 400;
 }
 
@@ -56,18 +57,18 @@ p {
 }
 .navbar .navbar__menu .nav__link {
   text-decoration: none;
-  color: #F2600C;
+  color: #f2600c;
   font-size: 0.9286rem;
 }
 .navbar .navbar__menu .nav__link:hover {
-  border-bottom: 3px solid #FC7E27;
+  border-bottom: 3px solid #fc7e27;
 }
 
 .kv-main-title h1 {
   font-size: 2.7143rem;
   font-weight: 700;
   margin: 0 0 88px 246px;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .sub_main {
@@ -77,7 +78,7 @@ p {
   font-size: 2.2857rem !important;
   position: absolute;
   top: 150px;
-  color: #FFF8F4;
+  color: #fff8f4;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -98,16 +99,15 @@ footer .footer__container .footer__text {
 }
 
 .cta {
-  margin-top: 70px;
   gap: 10%;
 }
 .cta .button {
   padding: 15px 48px;
-  background-color: #F2600C;
+  background-color: #f2600c;
   font-size: 0.9286rem;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 10px;
-  border: 1px solid #F2600C;
+  border: 1px solid #f2600c;
   width: 250px;
 }
 .cta .button .orange_arrow {
@@ -120,7 +120,7 @@ footer .footer__container .footer__text {
 }
 .cta .button:hover {
   background-color: transparent;
-  color: #F2600C;
+  color: #f2600c;
   transition: all 0.3s ease;
 }
 .cta .button:hover img {
@@ -132,8 +132,8 @@ footer .footer__container .footer__text {
 .cta .button_outline {
   padding: 15px 48px;
   background-color: transparent;
-  border: 1px solid #FC7E27;
-  color: #FC7E27;
+  border: 1px solid #fc7e27;
+  color: #fc7e27;
   border-radius: 10px;
   transition: all 0.3s ease;
   font-size: 0.9286rem;
@@ -147,8 +147,8 @@ footer .footer__container .footer__text {
   display: none;
 }
 .cta .button_outline:hover {
-  background-color: #FC7E27;
-  color: #FFFFFF;
+  background-color: #fc7e27;
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 .cta .button_outline:hover img {
@@ -173,11 +173,11 @@ body h1 {
   margin-top: 70px;
 }
 .table .table_title {
-  background-color: #F2600C;
+  background-color: #f2600c;
   color: #fff;
 }
 .table .table_text th {
-  color: #F2600C;
+  color: #f2600c;
   padding: 20px;
 }
 .table .table_text td {
@@ -186,7 +186,7 @@ body h1 {
   cursor: pointer;
 }
 .table tbody tr:hover {
-  background-color: #FFF4ED;
+  background-color: #fff4ed;
 }
 
 .pagination {
@@ -194,10 +194,10 @@ body h1 {
 }
 
 .page-link {
-  color: #FC7E27 !important;
+  color: #fc7e27 !important;
 }
 .page-link:hover {
-  background-color: #FFF4ED;
+  background-color: #fff4ed;
 }
 .page-link:focus {
   box-shadow: none;
