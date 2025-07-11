@@ -38,10 +38,6 @@ p {
   font-weight: 400;
 }
 
-.container {
-  padding: 80px 0;
-}
-
 .navbar {
   flex-wrap: nowrap !important;
   padding: 50px 0;
@@ -83,6 +79,14 @@ p {
   align-items: center;
   width: 100%;
   justify-content: center;
+}
+
+.kv-tab-list {
+  margin-top: 20px;
+}
+.nav-pills .nav-link.active {
+  background-color: #f2600c;
+  color: #fff8f4 !important;
 }
 
 .sub_main {
@@ -220,9 +224,6 @@ body img {
   z-index: 1;
 }
 
-.kv-tab-list {
-  padding-left: 246px;
-}
 .kv-tab-list .tab-btn {
   font-size: 1.0714rem;
   color: #2e2e2e;
@@ -234,6 +235,23 @@ body img {
   color: #d9d9d9 !important;
   border-bottom: #fc7e27;
   cursor: pointer;
+}
+.nav-link {
+  font-size: 1.0714rem;
+  color: #2e2e2e;
+  font-weight: 700;
+  margin-right: 80px;
+  background-color: none;
+}
+
+.nav-pills .nav-link.active:hover {
+  color: #fff8f4;
+}
+.nav-pills .nav-link:hover {
+  color: #f2600c;
+}
+.part02-top {
+  margin-top: 50px;
 }
 
 .tab-content .part02 .main-text,
@@ -258,12 +276,11 @@ body img {
   font-weight: 700;
   margin: 0;
 }
-.tab-content .part02 .text_content {
+.tab-content .part02 .text_content,
+.tab-content .part03 .text_content {
   margin-left: 45px;
 }
-.tab-content .part03 .text_content {
-  margin-right: 45px;
-}
+
 .tab-content .part04 .text-center {
   margin-top: 87px;
   margin-bottom: 87px;
@@ -320,3 +337,139 @@ body img {
 }
 
 /*# sourceMappingURL=Sub01-saveyearn.css.map */
+
+@media (min-width: 340px) and (max-width: 575px) {
+  .kv-top {
+    height: 100px;
+    background: url("../images/sub/sub04_main-img02.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .kv-top {
+    height: 100px;
+  }
+  .kv-top .kv-text-title {
+    height: 100px;
+  }
+  .kv-text-title h2 {
+    font-size: 0.7143rem;
+  }
+  .nav-link {
+    font-weight: 700;
+    margin-right: 80px;
+    font-size: 0.7143rem;
+    margin-right: 10px;
+    color: #2e2e2e !important;
+  }
+  .part02 img,
+  .part03 img,
+  .part04 img {
+    display: none;
+  }
+
+  .part02-top {
+    margin-top: 0;
+  }
+
+  .tab-content .part02 .main-text,
+  .tab-content .part03 .main-text,
+  .tab-content .part04 .main-text {
+    margin-top: 50px;
+    font-size: 0.9286rem !important;
+    color: #fff;
+    background-color: #f2600c;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .tab-content .part02 .text_content,
+  .tab-content .part03 .text_content,
+  .tab-content .part04 .text_content {
+    margin-left: 0;
+  }
+  .tab-content .part02 .sub_text,
+  .tab-content .part03 .sub_text,
+  .tab-content .part04 .sub_text {
+    font-size: 0.9286rem;
+    margin-top: 20px;
+    color: #fc7e27;
+    text-align: center;
+  }
+  .tab-content .part02 .description,
+  .tab-content .part03 .description,
+  .tab-content .part04 .description {
+    font-size: 0.7143rem;
+    margin-top: 15px;
+    color: #2e2e2e;
+    font-weight: 400;
+    text-align: center;
+  }
+  .tab-content .part03 .text_content {
+    margin-right: 0;
+  }
+
+  .sub03_title {
+    font-size: 0.9286rem;
+    margin-bottom: 20px;
+  }
+  .sub03_subtitle {
+    font-size: 0.7143rem;
+  }
+  .accordion {
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+  .accordion .card .card-header .btn {
+    padding: 10px 24px;
+    background: transparent;
+    color: #2e2e2e;
+    text-decoration: none;
+  }
+  .fa-paw {
+    display: none;
+  }
+  .faq__title {
+    padding-top: 70px !important;
+  }
+  .card-header .btn-link {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .accordion .card-header {
+    padding: 0;
+  }
+  .accordion .card-body {
+    font-size: 0.7143rem;
+    margin: 0;
+  }
+  .cta {
+    margin-top: 20px;
+    gap: 5%;
+  }
+  .cta .button {
+    justify-content: center !important;
+    font-size: 0.7143rem;
+    padding: 10px 25px;
+    width: 145px;
+  }
+  .cta .button_outline {
+    justify-content: center !important;
+    text-align: center;
+    font-size: 0.7143rem;
+    padding: 10px 25px;
+    width: 145px;
+  }
+  .cta .button .orange_arrow {
+    width: 20%;
+    display: none;
+  }
+  .cta .button_outline .white_arrow {
+    width: 20%;
+    display: none;
+  }
+  .cta .button:hover .icon_hover {
+    display: block;
+  }
+  .cta .button_outline:hover .icon_hover {
+    display: block;
+  }
+}

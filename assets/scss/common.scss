@@ -1,223 +1,214 @@
-   /* Spacing (Margin & Padding */
-    $spacing-xxxs: 15px;
-    $spacing-xxs: 20px;
-    $spacing-xs: 45px;
-    $spacing-sm: 50px;
-    $spacing-md: 70px;
-    $spacing-lg: 80px;
-    $spacing-xl: 87px;
-    $spacing-xxl: 160px; 
+/* Spacing (Margin & Padding */
+$spacing-xxxs: 15px;
+$spacing-xxs: 20px;
+$spacing-xs: 45px;
+$spacing-sm: 50px;
+$spacing-md: 70px;
+$spacing-lg: 80px;
+$spacing-xl: 87px;
+$spacing-xxl: 160px;
 
-    /* black 색상 */
-    $black-00: #2E2E2E;
-    $black-01: #D9D9D9;
+/* black 색상 */
+$black-00: #2e2e2e;
+$black-01: #d9d9d9;
 
+/* Point 색상 */
+$primary-00: #f2600c;
+$primary-01: #fc7e27;
+$primary-02: #fda96f;
+$primary-03: #fed4b7;
+$primary-04: #fff4ed;
+$primary-05: #fff8f4;
 
-    /* Point 색상 */
-    $primary-00:#F2600C;
-    $primary-01:#FC7E27;
-    $primary-02:#FDA96F;
-    $primary-03:#FED4B7;
-    $primary-04:#FFF4ED;
-    $primary-05:#FFF8F4;
+/* font-weight */
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
 
-    /* font-weight */
-    $font-weight-light: 300;
-    $font-weight-regular: 400;   
-    $font-weight-semibold: 600; 
-    $font-weight-bold: 700; 
- 
-     /* font-size */
-    $font-heading-xxl: 3.4286rem; // 48px
+/* font-size */
+$font-heading-xxl: 3.4286rem; // 48px
 
-    $font-heading-xl: 2.7143rem;  // 38px
-    $font-heading-lg: 2.2857rem;  // 32px
-    $font-heading-md: 1.5714rem;  // 24px
-  
-    $font-body-lg: 1.4286rem;     // 20px
-    $font-body-md: 1.2857rem;     // 18px
-    $font-body-sm: 1.0714rem;     // 15px
-  
-    $font-caption: 0.9286rem;     // 13px
-    $font-caption-s: 0.7143rem;   // 10px
+$font-heading-xl: 2.7143rem; // 38px
+$font-heading-lg: 2.2857rem; // 32px
+$font-heading-md: 1.5714rem; // 24px
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+$font-body-lg: 1.4286rem; // 20px
+$font-body-md: 1.2857rem; // 18px
+$font-body-sm: 1.0714rem; // 15px
 
-*{
-    box-sizing: border-box
+$font-caption: 0.9286rem; // 13px
+$font-caption-s: 0.7143rem; // 10px
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
 }
-body{
-    font-size: 14px;
+body {
+  font-size: 14px;
 }
-ul,li{
-    list-style: none;
+ul,
+li {
+  list-style: none;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-h1{
-    font-size: $font-heading-xl;
-    font-weight: $font-weight-regular;
+h1 {
+  font-size: $font-heading-xl;
+  font-weight: $font-weight-regular;
 }
-span{
-    color: $primary-00;
-    font-weight: $font-weight-regular;
+span {
+  color: $primary-00;
+  font-weight: $font-weight-regular;
 }
-p{
-    color: $black-00;
-    font-weight: $font-weight-regular;
+p {
+  color: $black-00;
+  font-weight: $font-weight-regular;
 }
-
 
 //nav
-.navbar{
-    flex-wrap: nowrap !important;
-    padding: 50px 0;
-    
-    .navbar__left{
-        .navbar__logo{
-            width: 70%;
-        }
-      .navbar__ghost{
-        display: none;
-        background: transparent;
-        border: none;
-    }
-    }
+.navbar {
+  flex-wrap: nowrap !important;
+  padding: 50px 0;
 
-    .navbar__menu{
-        li{
-            list-style: none;
-            font-weight: $font-weight-semibold;
-            margin-left: 50px;
-        }
-        .nav__link{
-            text-decoration: none;
-            color: $primary-00;
-            font-size: $font-caption;
-            &:hover{
-                border-bottom: 3px solid $primary-01;
-            }
-        }
+  .navbar__left {
+    .navbar__logo {
+      width: 70%;
     }
+    .navbar__ghost {
+      display: none;
+      background: transparent;
+      border: none;
+    }
+  }
+
+  .navbar__menu {
+    li {
+      list-style: none;
+      font-weight: $font-weight-semibold;
+      margin-left: 50px;
+    }
+    .nav__link {
+      text-decoration: none;
+      color: $primary-00;
+      font-size: $font-caption;
+      &:hover {
+        border-bottom: 3px solid $primary-01;
+      }
+    }
+  }
 }
 
 //kv_title
-.kv-main-title{
-    h1{
-        font-size: $font-heading-xl;
-        font-weight: $font-weight-bold;
-        margin: 0  0 88px 246px;
-        color: $black-00;
-    }
+.kv-main-title {
+  h1 {
+    font-size: $font-heading-xl;
+    font-weight: $font-weight-bold;
+    margin: 0 0 88px 246px;
+    color: $black-00;
+  }
 }
 
 // sub_title
-.sub_main{
-    position: relative;
-    h2{
-        font-size: $font-heading-lg !important;        
-        position: absolute;
-        top: 150px;
-        color: $primary-05;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+.sub_main {
+  position: relative;
+  h2 {
+    font-size: $font-heading-lg !important;
+    position: absolute;
+    top: 150px;
+    color: $primary-05;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 // footer spacing 수정하기
 
-footer{
-    .footer__container{
-        padding: $spacing-xs !important; 
-    .footer__logo{
-        width: 15%;
-        margin-bottom: $spacing-xs; 
-    } 
-    .footer__icon{
-        margin-bottom: $spacing-xs;
-        font-size: $font-body-sm;
+footer {
+  .footer__container {
+    padding: $spacing-xs !important;
+    .footer__logo {
+      width: 15%;
+      margin-bottom: $spacing-xs;
     }
-    .footer__text{
-        font-size: $font-caption-s;
+    .footer__icon {
+      margin-bottom: $spacing-xs;
+      font-size: $font-body-sm;
     }
-    } 
-
+    .footer__text {
+      font-size: $font-caption-s;
+    }
+  }
 }
 
 //cta
-.cta{
-    margin-top: $spacing-md;
-    gap:10%;
-    .button{ 
-        padding: 15px 48px;
-        background-color: $primary-00;
-        font-size: $font-caption;
-        color: #FFFFFF;
-        border-radius: 10px;
-        border: 1px solid $primary-00;
-        width: 250px;
-        
-        .orange_arrow{
-            width: 20%;
-        }
+.cta {
+  gap: 10%;
+  .button {
+    padding: 15px 48px;
+    background-color: $primary-00;
+    font-size: $font-caption;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid $primary-00;
+    width: 250px;
 
-        .icon_hover{
-            width: 20%;
-            display: none;
-            margin: 0;
-        }
-
-        
-
-        &:hover{
-            background-color: transparent;
-            color: $primary-00; 
-            transition: all 0.3s ease;
-
-            img{
-                display: none;
-            }
-            .icon_hover{
-                display: block;
-            }
-        }
+    .orange_arrow {
+      width: 20%;
     }
 
-
-
-    .button_outline{
-        padding: 15px 48px;
-        background-color: transparent; 
-        border: 1px solid $primary-01;
-        color: $primary-01;
-        border-radius: 10px;
-        transition: all 0.3s ease;
-        font-size: $font-caption;
-        width: 250px;
- 
-        .white_arrow{
-            width: 20%;
-        }
-        .icon_hover{
-            width: 10%;
-            display: none;
-        }
-        
-
-        &:hover{
-            background-color: $primary-01;
-            color:  #FFFFFF;
-            transition: all 0.3s ease; 
-
-            img{
-                display: none;
-            }
-            .icon_hover{
-                display: block;
-            }
-        }
-
+    .icon_hover {
+      width: 20%;
+      display: none;
+      margin: 0;
     }
+
+    &:hover {
+      background-color: transparent;
+      color: $primary-00;
+      transition: all 0.3s ease;
+
+      img {
+        display: none;
+      }
+      .icon_hover {
+        display: block;
+      }
+    }
+  }
+
+  .button_outline {
+    padding: 15px 48px;
+    background-color: transparent;
+    border: 1px solid $primary-01;
+    color: $primary-01;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-size: $font-caption;
+    width: 250px;
+
+    .white_arrow {
+      width: 20%;
+    }
+    .icon_hover {
+      width: 10%;
+      display: none;
+    }
+
+    &:hover {
+      background-color: $primary-01;
+      color: #ffffff;
+      transition: all 0.3s ease;
+
+      img {
+        display: none;
+      }
+      .icon_hover {
+        display: block;
+      }
+    }
+  }
 }

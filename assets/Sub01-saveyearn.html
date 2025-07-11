@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SAVEYEARN</title>
+    <title>saveyearn</title>
 
     <link
       rel="stylesheet"
@@ -21,7 +21,7 @@
     />
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
+    <link rel="stylesheet" href="../assets/scss/common.css" />
     <link rel="stylesheet" href="scss/Sub01-saveyearn.css" />
   </head>
 
@@ -130,11 +130,10 @@
         </div>
 
         <!-- Our Mission -->
-        <div class="container">
+        <div class="container part02-top">
           <div class="part02 row">
             <div class="sub01_img col-md-6">
               <img
-                class=""
                 src="../assets/images/sub/sub01_img01.png"
                 alt="소개페이지 미션이미지"
               />
@@ -226,10 +225,10 @@
           </div>
         </div> -->
 
-        <div class="row text-center">
-          <h2 class="col-md-12 faq__title">자주묻는질문</h2>
+        <div class="text-center">
+          <h2 class="faq__title">자주묻는질문</h2>
         </div>
-        <div class="container">
+        <div class="mo-container">
           <div class="accordion" id="accordionExample">
             <div class="card">
               <div class="card-header" id="Q1">
@@ -511,9 +510,9 @@
         class="footer__container d-flex flex-column text-center align-items-center"
       >
         <div class="footer__logo">
-          <img src="../assets/images/footer_logo.svg" alt="" />
+          <img src="../assets/images/footer_logo.svg" alt="하단 로고 이미지" />
         </div>
-        <div class="">
+        <div class="footer__content">
           <div class="footer__icon d-flex justify-content-center">
             <a href="#"><i class="fab fa-youtube text-white"></i></a>
             <a href="#"><i class="fab fa-instagram text-white ml-3"></i></a>
@@ -522,11 +521,13 @@
             <a href="#"><i class="fab fa-google-play text-white ml-3"></i></a>
           </div>
 
-          <div class="footer__text d-flex justify-content-center">
-            <div class="">대표: 최혜진</div>
-            <div class="ml-5">이메일: gwsr579144@gmail.com</div>
-            <div class="ml-5">사업자 등록번호: 150-19-01029</div>
-            <div class="ml-5">통신판매업신고번호: 2025-서울-7984</div>
+          <div class="footer__text d-flex justify-content-between">
+            <div class="footer__name">대표: 최혜진</div>
+            <div class="footer__mail ml-5">이메일: gwsr579144@gmail.com</div>
+            <div class="footer__num01 ml-5">사업자 등록번호: 150-19-01029</div>
+            <div class="footer__num02 ml-5">
+              통신판매업신고번호: 2025-서울-7984
+            </div>
           </div>
         </div>
       </div>
