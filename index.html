@@ -93,6 +93,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <!-- css -->
+    <link rel="stylesheet" href="assets/scss/nav.css" />
     <link rel="stylesheet" href="assets/scss/common.css" />
     <link rel="stylesheet" href="assets/scss/style.css" />
   </head>
@@ -117,58 +118,21 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- лого - назва сайту .navbar-brand -->
-        <a class="navbar-brand" href="#">LOGO</a>
-        <!-- /кінець лого, назва сайту -->
-
-        <!-- Кнопка гамбургера .navbar-toggler -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbar-menu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- /кінець Кнопки гамбургера -->
-
-        <!-- контейнер навігаційного меню #navbar-menu -->
-        <!-- Важливо, щоб дане id="navbar-menu" збігалося 
-        з data-target="#navbar-menu" елементу .navbar-toggler  -->
-        <div class="collapse navbar-collapse" id="navbar-menu">
-          <!-- Перелік пунктів меню .navbar-nav -->
-          <!-- приклади 
-            https://www.codeply.com/go/qhaBrcWp3v
-            https://www.codeply.com/go/0xSGj0EsAu
-          .ml-auto праворуч
-          .mx-auto поцентру
-    -->
-          <ul class="navbar-nav ml-auto">
-            <!-- .active активний розділ "Home" -->
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#s1">Section1</a>
-              <!-- де #s1 линк на id елемента, що є батьківським для відповідного розділу,
-             наприклад <section id="s1">..
-        -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#s2">Section2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#s3">Section3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#s4">Section4</a>
-            </li>
-          </ul>
-          <!-- /кінець Переліку пунктів меню -->
-        </div>
-        <!-- /кінець контейнера навігаційного меню -->
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="check-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+          <img src="assets/images/logo.svg" alt="로고이미지" />
+        </label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">센터소개</a></li>
+          <li><a href="#">자원봉사</a></li>
+          <li><a href="#">입양/임보</a></li>
+          <li><a href="#">커뮤니티</a></li>
+        </ul>
       </nav>
       <!-- <nav
         class="navbar container d-flex justify-content-between align-items-center"

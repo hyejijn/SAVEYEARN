@@ -42,32 +42,6 @@ p {
   padding: 80px 0;
 }
 
-/* .navbar {
-  flex-wrap: nowrap !important;
-  padding: 50px 0;
-}
-.navbar .navbar__left .navbar__logo {
-  width: 70%;
-}
-.navbar .navbar__left .navbar__ghost {
-  display: none;
-  background: transparent;
-  border: none;
-}
-.navbar .navbar__menu li {
-  list-style: none;
-  font-weight: 600;
-  margin-left: 50px;
-}
-.navbar .navbar__menu .nav__link {
-  text-decoration: none;
-  color: #f2600c;
-  font-size: 0.9286rem;
-}
-.navbar .navbar__menu .nav__link:hover {
-  border-bottom: 3px solid #fc7e27;
-} */
-
 .kv-main-title h1 {
   font-size: 2.7143rem;
   font-weight: 700;
@@ -170,27 +144,9 @@ body h1 {
   font-family: "IBM Plex Sans KR", sans-serif;
 }
 
-.navbar {
-  flex-wrap: nowrap !important;
-  padding: 50px 0;
-}
-.navbar .navbar__ghost {
-  display: none;
-  background: transparent;
-  border: none;
-}
-.navbar .navbar__menu li {
-  list-style: none;
-  font-size: 0.9286rem;
-  font-weight: 700;
-  margin-left: 50px;
-}
-.navbar .navbar__menu .nav__link {
-  text-decoration: none;
+.kv-title .sec01_unit {
   color: #f2600c;
-}
-.navbar .navbar__menu .nav__link:hover {
-  border-bottom: 3px solid #fc7e27;
+  font-size: 3.4286rem;
 }
 
 .section_01 .sec_01_maintitle .main_img {
@@ -265,7 +221,7 @@ body h1 {
   height: 40px;
   background-color: #fda96f;
   position: relative;
-  top: -553px;
+  top: -522px;
 }
 .section_03 .section03__sbutitle {
   font-size: 1.4286rem;
