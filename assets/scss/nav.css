@@ -6,8 +6,6 @@
   scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
-
-  /* font-family: 'Montserrat', sans-serif; */
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -81,9 +79,8 @@ a:hover {
   }
   ul {
     position: fixed;
-    height: 40vh;
+    height: 70vh;
     width: 100%;
-    background: transparent;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -111,6 +108,7 @@ a:hover {
     padding: 0 50px;
   }
 }
+
 nav section {
   background: url(./images/bg1.jpg);
   background-size: cover;
