@@ -319,7 +319,8 @@ body h1 {
   font-size: 0.9286rem;
   padding: 10px 25px;
   width: 150px;
-  height: 50px;
+  height: 55px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
