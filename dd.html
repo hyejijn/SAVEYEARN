@@ -821,3 +821,18 @@ orignal
     </div>
   </div>
 </section>
+$type-scale: ( section__title: ( font-size: ( xxl: 32px, xl: 24px, lg: 20px, md:
+18px, sm: 12px, xs: 10px, ), font-weight: 500, line-height: 1.4, letter-spacing:
+-1px, ), section__subtitle: ( font-size: ( xxl: 32px, xl: 24px, lg: 20px, md:
+18px, sm: 12px, xs: 10px, ), font-weight: 500, line-height: 1.4, letter-spacing:
+-1px, ), ); @mixin type-scale($key) { $style: map-get($type=scale, $key); $size:
+map-get($style, $font-size); $height: map-get($style, $line-height); $weight:
+map-get($style, $font-weight); $spacing: map-get($style, $letter-spacing);
+font-size: map-get($size, xs); line-height: $height; font-weight: $weight;
+letter-spacing: $spacing; @media (min-width: 576px) and (max-width: 767.98px) {
+@if map-get($size, sm) { font-size: map-get($size, sm); } } @media (min-width:
+576px) and (max-width: 767.98px) { font-size: map-get($size, sm); } @media
+(min-width: 576px) and (max-width: 767.98px) { font-size: map-get($size, sm); }
+@media (min-width: 576px) and (max-width: 767.98px) { font-size: map-get($size,
+sm); } } .section { &__title { @include type-scale(section__title); }
+&__subtitle { @include type-scale(section__subtitle); } }
