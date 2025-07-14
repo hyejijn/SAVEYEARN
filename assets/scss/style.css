@@ -211,7 +211,6 @@ body h1 {
   top: 128px;
 }
 .section_03 .section__item .section03__card {
-  width: 30%;
   border-radius: 20px;
   margin-top: 166px;
 }
@@ -222,12 +221,15 @@ body h1 {
   height: 40px;
   background-color: #fda96f;
   position: relative;
-  top: -343px;
+  top: -593px;
 }
 .section_03 .section03__sbutitle {
   font-size: 1.4286rem;
   font-weight: 600;
   margin-top: 50px;
+}
+.section_03 .section03__subtext {
+  text-align: center;
 }
 
 .section_03 .mo_title {
@@ -383,10 +385,13 @@ body h1 {
     text-align: center;
   }
   .section__item {
-    margin-top: 20px;
+    margin-top: 50px;
+  }
+  .section_03 .section__item .section03__card {
+    margin-top: 15px;
   }
   .section__item .section03__card {
-    display: none;
+    width: 50%;
   }
   .section__item .section03__sbutitle {
     font-size: 0.9286rem;
