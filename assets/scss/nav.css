@@ -10,7 +10,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-nav {
+.navi {
   background: #fff;
   height: 80px;
   width: 100%;
@@ -28,16 +28,16 @@ label.logo {
   padding: 0 100px;
   cursor: pointer;
 }
-nav ul {
+.navi ul {
   float: right;
   margin-right: 20px;
 }
-nav ul li {
+.navi ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
-nav ul li a {
+.navi ul li a {
   color: #f2600c;
   font-size: 17px;
   padding: 7px 17px;
@@ -71,10 +71,10 @@ a:hover {
     font-size: 30px;
     padding-left: 50px;
   }
-  nav ul li a {
+  .navi ul li a {
     font-size: 16px;
   }
-  nav ul {
+  .navi ul {
     background: #fff;
     height: 100%;
   }
@@ -92,12 +92,12 @@ a:hover {
     text-align: center;
     transition: all 0.5s;
   }
-  nav ul li {
+  .navi ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
-  nav ul li a {
+  .navi ul li a {
     font-size: 20px;
   }
   a:hover,
@@ -115,7 +115,7 @@ a:hover {
   }
 }
 
-nav section {
+.navi section {
   background: url(./images/bg1.jpg);
   background-size: cover;
   height: calc(100vh - 80px);

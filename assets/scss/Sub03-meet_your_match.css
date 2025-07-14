@@ -12,6 +12,11 @@
 
 body {
   font-size: 14px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body h1 {
+  font-family: "IBM Plex Sans KR", sans-serif;
 }
 
 ul,
@@ -171,13 +176,6 @@ footer .footer__container .footer__text {
   display: block;
 }
 
-body {
-  font-family: "Noto Sans KR", sans-serif;
-}
-body h1 {
-  font-family: "IBM Plex Sans KR", sans-serif;
-}
-
 .kv-top {
   position: relative;
   height: 400px;
@@ -220,6 +218,10 @@ body h1 {
 }
 .pet-content .pet-iamges img {
   width: 100%;
+}
+
+.mo-pet-title {
+  display: none;
 }
 
 .pet-content:hover .pet-title {

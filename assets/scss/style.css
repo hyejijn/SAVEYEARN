@@ -227,6 +227,9 @@ body h1 {
   font-size: 1.4286rem;
   font-weight: 600;
   margin-top: 50px;
+  color: #fc7e27;
+  font-weight: 700;
+  text-align: center;
 }
 .section_03 .section03__subtext {
   text-align: center;
