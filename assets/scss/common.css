@@ -149,7 +149,7 @@ footer .footer__container .footer__text {
   display: none;
 }
 .cta .button_outline:hover {
-  background-color: #fc7e27;
+  background-color: #f2600c;
   color: #ffffff;
   transition: all 0.3s ease;
 }

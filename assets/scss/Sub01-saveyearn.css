@@ -157,6 +157,7 @@ footer .footer__container .footer__text {
   transition: all 0.3s ease;
   font-size: 0.9286rem;
   width: 250px;
+  cursor: pointer;
 }
 .cta .button_outline .white_arrow {
   width: 20%;
@@ -166,7 +167,7 @@ footer .footer__container .footer__text {
   display: none;
 }
 .cta .button_outline:hover {
-  background-color: #fc7e27;
+  background-color: #f2600c;
   color: #ffffff;
   transition: all 0.3s ease;
 }
